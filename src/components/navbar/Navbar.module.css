@@ -1,0 +1,17 @@
+.container {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	background-color: blue;
+}
+
+.signature {
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	margin-right: auto;
+}
+
+.navLinks {
+	font-size: 1.5rem;
+	margin: 0 1rem;
+}

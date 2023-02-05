@@ -1,8 +1,7 @@
 import Head from "next/head";
 
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import styles from "@/styles/Home.module.css";
+import Navbar from "@/components/navbar/Navbar";
+import HeroSection from "@/components/hero-section/HeroSection";
 
 export default function Home() {
 	return (
