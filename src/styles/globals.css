@@ -5,13 +5,16 @@
 
 * {
 	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+
+	border: 1px solid red;
 }
 
 html,
 body {
-	max-width: 100vw;
+	/* max-width: 100vw; */
+	padding: 0;
+	margin: 0;
+	background-image: url("/public/assets/banner-bg.png");
 }
 
 a {

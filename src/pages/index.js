@@ -1,4 +1,7 @@
 import Head from "next/head";
+
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
 import styles from "@/styles/Home.module.css";
 
 export default function Home() {
@@ -10,7 +13,8 @@ export default function Home() {
 			</Head>
 			<main>
 				<div>
-					<p>Hello</p>
+					<Navbar />
+					<HeroSection />
 				</div>
 			</main>
 		</>
