@@ -2,16 +2,48 @@
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
-	background-color: blue;
+	background-image: url("../../../public/assets/banner-bg.png");
+	color: white;
 }
 
 .signature {
-	font-size: 1.5rem;
-	margin-left: 1rem;
-	margin-right: auto;
+	font-size: 1.25rem;
+	margin: 1em auto 0.5em 1em;
 }
 
-.navLinks {
-	font-size: 1.5rem;
-	margin: 0 1rem;
+.navLinks,
+.homeLink {
+	font-size: 1.25rem;
+	margin: 1em 1em 0.5em 1em;
+}
+
+/* Very Small */
+@media screen and (max-width: 360px) {
+	.signature {
+		margin: 0;
+	}
+
+	.navLinks {
+		margin: 0 auto;
+	}
+
+	.homeLink {
+		display: none;
+	}
+}
+
+/* Mobile */
+@media screen and (min-width: 361px) and (max-width: 599px) {
+	.signature {
+		font-size: 1.25rem;
+	}
+
+	.navLinks {
+		font-size: 1.25rem;
+		margin: 0.25em 0.25em 0.5em 0.25em;
+	}
+
+	.homeLink {
+		display: none;
+	}
 }
