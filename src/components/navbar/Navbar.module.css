@@ -2,19 +2,31 @@
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
-	background-image: url("../../../public/assets/banner-bg.png");
 	color: white;
+	background-color: red;
 }
 
 .signature {
 	font-size: 1.25rem;
 	margin: 1em auto 0.5em 1em;
+
+	color: black;
+	text-decoration: none;
 }
 
 .navLinks,
 .homeLink {
 	font-size: 1.25rem;
 	margin: 1em 1em 0.5em 1em;
+
+	color: black;
+	text-decoration: none;
+}
+
+.signature:hover,
+.navLinks:hover,
+.homeLink:hover {
+	color: white;
 }
 
 /* Very Small */

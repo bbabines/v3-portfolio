@@ -9,7 +9,7 @@ const Navbar = () => {
 
 	return (
 		<div className={styles.container}>
-			<p className={styles.signature}>Brad Babines</p>
+			<a className={styles.signature}>Brad Babines</a>
 
 			{darkmode ? (
 				<IoPartlySunnyOutline className={styles.navLinks} />
@@ -17,10 +17,10 @@ const Navbar = () => {
 				<IoMoonOutline className={styles.navLinks} />
 			)}
 
-			<p className={styles.homeLink}>Home</p>
-			<p className={styles.navLinks}>About</p>
-			<p className={styles.navLinks}>Skills</p>
-			<p className={styles.navLinks}>Projects</p>
+			<a className={styles.homeLink}>Home</a>
+			<a className={styles.navLinks}>About</a>
+			<a className={styles.navLinks}>Skills</a>
+			<a className={styles.navLinks}>Projects</a>
 		</div>
 	);
 };
