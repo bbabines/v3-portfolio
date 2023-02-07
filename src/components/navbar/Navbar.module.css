@@ -24,8 +24,11 @@
 }
 
 .signature:hover,
+.signature:focus,
 .navLinks:hover,
-.homeLink:hover {
+.navLinks:focus,
+.homeLink:hover,
+.homeLink:focus {
 	color: white;
 }
 
