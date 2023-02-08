@@ -24,14 +24,16 @@ const SkillsSection = () => {
 				<ul>
 					<li>
 						<FaReact className={styles.react} />
+						{` `}
 						React
 					</li>
 					<li>
 						<SiTypescript className={styles.typescript} />
+						{` `}
 						Typescript
 					</li>
 					<li>
-						<SiThreedotjs className={styles.threeJs} />
+						<SiThreedotjs className={styles.threeJs} /> {``}
 						Three.js
 					</li>
 					<li>
@@ -49,10 +51,12 @@ const SkillsSection = () => {
 					</li>
 					<li>
 						<SiCss3 className={styles.css} />
+						{` `}
 						CSS3
 					</li>
 					<li>
 						<FaHtml5 className={styles.html} />
+						{` `}
 						HTML5
 					</li>
 				</ul>
@@ -70,18 +74,22 @@ const SkillsSection = () => {
 					</li>
 					<li>
 						<SiFirebase className={styles.firebase} />
+						{` `}
 						Firebase
 					</li>
 					<li>
 						<SiNetlify className={styles.netlify} />
+						{` `}
 						Netlify
 					</li>
 					<li>
 						<SiGithub />
+						{` `}
 						GitHub
 					</li>
 					<li>
 						<FaCode className={styles.vsCode} />
+						{` `}
 						VSCode
 					</li>
 				</ul>

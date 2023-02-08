@@ -1,9 +1,25 @@
 .container {
 	background-color: green;
-	display: flex;
 }
 
-.projectContainer {
-	margin: 0 auto;
+.projectTitle {
+	text-align: center;
+}
+
+.projectsContainer {
+	display: flex;
+	flex-direction: column;
 	max-width: 1800px;
+	margin: 0 auto;
+}
+
+.personalContainer,
+.freelanceContainer {
+	margin-bottom: 2em;
+	display: flex;
+	justify-content: center;
+}
+
+.cardImage {
+	height: 100%;
 }
