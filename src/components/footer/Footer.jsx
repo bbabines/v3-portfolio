@@ -1,13 +1,17 @@
 import styles from "./Footer.module.css";
+import { FaLinkedin, FaGithub, FaTwitterSquare } from "react-icons/fa";
 
 const Footer = () => {
 	return (
 		<div className={styles.container}>
-			<h1>Footer</h1>
+			<h1>3D Logo</h1>
+			<div className={styles.versionContainer}>
+				<p className={styles.version}>v3.0</p>
+			</div>
 			<div className={styles.iconContainer}>
-				<p>Icon</p>
-				<p>Icon</p>
-				<p>Icon</p>
+				<FaGithub className={styles.icons} />
+				<FaLinkedin className={styles.icons} />
+				{/* <FaTwitterSquare className={styles.icons} /> */}
 			</div>
 		</div>
 	);

@@ -1,4 +1,5 @@
 import styles from "./HeroSection.module.css";
+import { Button } from "react-bootstrap";
 
 const HeroSection = () => {
 	return (
@@ -13,9 +14,7 @@ const HeroSection = () => {
 				</p>
 			</div>
 			<div className={styles.buttonContainer}>
-				<button className={styles.resumeButton} type="button">
-					Check out my resume
-				</button>
+				<Button variant="info">Check out my resume</Button>
 			</div>
 		</div>
 	);

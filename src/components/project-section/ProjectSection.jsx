@@ -59,5 +59,20 @@ export default ProjectSection;
 	<h6>Large, Medium, or Small</h6>
 	<h6>React, Three.js, Vanilla JS, HTML/CSS</h6>
 	<p>Live Demo</p> 
+	
+
+	CARD 
+	1. Remove description and expand picture in the Card.
+	2. Create a hover effect that displays the description
+	3. Create a data file that will map over the info and build cards.
+	
+	FILTER
+	1. Create filtering buttons and generate a overall style of the filtering section
+	2. Create the logic to filter the projects with conditionally rendering the sections.
+	
+	
+	
+	
+	
 	*/
 }
