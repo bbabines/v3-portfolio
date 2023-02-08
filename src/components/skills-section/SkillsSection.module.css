@@ -1,3 +1,19 @@
 .container {
 	background-color: orange;
+	padding: 0.5em;
+	display: flex;
+
+	/* justify-content: space-between; */
+}
+
+.skillsContainer > ul,
+.toolsContainer > ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.skillsContainer,
+.toolsContainer {
+	margin: 0 auto;
+	max-width: 1800px;
 }

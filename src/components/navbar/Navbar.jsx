@@ -9,18 +9,20 @@ const Navbar = () => {
 
 	return (
 		<div className={styles.container}>
-			<a className={styles.signature}>Brad Babines</a>
+			<div className={styles.navContainer}>
+				<a className={styles.signature}>Brad Babines</a>
 
-			{darkmode ? (
-				<IoPartlySunnyOutline className={styles.navLinks} />
-			) : (
-				<IoMoonOutline className={styles.navLinks} />
-			)}
+				{darkmode ? (
+					<IoPartlySunnyOutline className={styles.navLinks} />
+				) : (
+					<IoMoonOutline className={styles.navLinks} />
+				)}
 
-			<a className={styles.homeLink}>Home</a>
-			<a className={styles.navLinks}>About</a>
-			<a className={styles.navLinks}>Skills</a>
-			<a className={styles.navLinks}>Projects</a>
+				<a className={styles.homeLink}>Home</a>
+				<a className={styles.navLinks}>About</a>
+				<a className={styles.navLinks}>Skills</a>
+				<a className={styles.navLinks}>Projects</a>
+			</div>
 		</div>
 	);
 };

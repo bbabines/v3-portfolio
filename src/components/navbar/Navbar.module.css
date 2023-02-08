@@ -1,9 +1,17 @@
 .container {
+	/* display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap; */
+	color: white;
+	background-color: red;
+}
+
+.navContainer {
+	margin: 0 auto;
+	max-width: 1800px;
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
-	color: white;
-	background-color: red;
 }
 
 .signature {

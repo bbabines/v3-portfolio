@@ -3,9 +3,20 @@
 	padding: 0.5em;
 }
 
+.textContainer {
+	max-width: 1800px;
+	margin: 0 auto;
+}
+
+.buttonContainer {
+	max-width: 1800px;
+	margin: 0 auto;
+}
+
 .resumeButton {
 	padding: 0.5em 1em;
-	margin-bottom: 1em;
+	/* margin-bottom: 1em; */
+	display: inline-block;
 }
 
 .resumeButton:hover,
