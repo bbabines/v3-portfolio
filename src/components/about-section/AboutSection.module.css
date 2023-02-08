@@ -1,0 +1,10 @@
+.container {
+	background-color: yellow;
+	padding: 0.5em;
+	display: flex;
+}
+
+.aboutContainer {
+	max-width: 1800px;
+	margin: 0 auto;
+}
