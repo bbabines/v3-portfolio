@@ -2,9 +2,22 @@
 	background-color: yellow;
 	padding: 0.5em;
 	display: flex;
+	flex-direction: column;
 }
 
-.aboutContainer {
+.aboutTitle {
+	text-align: center;
+}
+
+.aboutContainer,
+.pictureContainer {
 	max-width: 1800px;
 	margin: 0 auto;
+}
+
+.pictureContainer {
+}
+
+.profilePicture {
+	border-radius: 40px;
 }
