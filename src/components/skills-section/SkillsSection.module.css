@@ -1,19 +1,106 @@
 .container {
-	background-color: orange;
+	background-color: white;
 	padding: 0.5em;
-	display: flex;
-
-	/* justify-content: space-between; */
 }
 
 .skillsContainer > ul,
 .toolsContainer > ul {
-	list-style-type: none;
-	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	display: grid;
+	grid-row: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 2em;
+	row-gap: 2em;
 }
 
 .skillsContainer,
 .toolsContainer {
-	margin: 0 auto;
+	margin: 0 auto 1em auto;
+	padding: 2em;
 	max-width: 1800px;
+
+	border: 2px solid red;
+	border-radius: 10px;
+}
+
+.frontEndTitle,
+.toolsTitle,
+.skillsTitle {
+	margin: 0 auto 1em auto;
+	max-width: 1800px;
+}
+
+.skillsTitle {
+	text-align: center;
+}
+
+/* 
+
+
+
+
+
+
+ICON COLORS
+
+
+
+
+
+
+
+ */
+
+.icons {
+	display: inline;
+}
+
+.react {
+	color: #63dafb;
+}
+
+.javascript {
+	color: #f0dc4e;
+}
+
+.bootstrap {
+	color: #563f7b;
+}
+
+.html {
+	color: #ed6535;
+}
+
+.styledComponents {
+	color: #ca7db2;
+}
+
+.typescript {
+	color: #007bcc;
+}
+
+.css {
+	color: #31aade;
+}
+
+.sass {
+	color: #d870a5;
+}
+
+.vsCode {
+	color: #41acf3;
+}
+
+.firebase {
+	color: #ffcb2b;
+}
+
+.vite {
+	color: #bf35ff;
+}
+
+.netlify {
+	color: #37aeb8;
 }
