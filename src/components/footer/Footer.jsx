@@ -11,7 +11,6 @@ const Footer = () => {
 			<div className={styles.iconContainer}>
 				<FaGithub className={styles.icons} />
 				<FaLinkedin className={styles.icons} />
-				{/* <FaTwitterSquare className={styles.icons} /> */}
 			</div>
 		</div>
 	);
