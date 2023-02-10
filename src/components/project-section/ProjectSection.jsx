@@ -1,13 +1,35 @@
 import styles from "./ProjectSection.module.css";
 import { Button, Card } from "react-bootstrap";
+import { default as projects } from "../../project-data.json";
 
 const ProjectSection = () => {
+	console.log(projects);
+
 	return (
 		<div className={styles.container}>
 			<h2 className={styles.projectTitle}>Projects</h2>
 			<div className={styles.projectsContainer}>
 				<h3 className={styles.freelanceTitle}>Freelance Work</h3>
-				<div className={styles.freelanceContainer}>
+
+				{projects.map((project) => (
+					<div key={project.id}>
+						<h4>{project.title}</h4>
+						<img src={`/${project.image}`} />
+						<div>
+							<a href={project.site} target="_blank">
+								View Live Demo
+							</a>
+						</div>
+						<div>
+							<a href={project.github} target="_blank">
+								View Code
+							</a>
+						</div>
+					</div>
+				))}
+
+				{/** Create Card Component  */}
+				{/* <div className={styles.freelanceContainer}>
 					<Card style={{ width: "20rem", height: "30rem" }}>
 						<Card.Img
 							className={styles.cardImage}
@@ -24,7 +46,8 @@ const ProjectSection = () => {
 							<Button variant="secondary">Check Out The Code</Button>
 						</Card.Body>
 					</Card>
-				</div>
+				</div> */}
+				{/** End Card Component  */}
 				<h3 className={styles.personalTitle}>Personal Projects</h3>
 				<div className={styles.personalContainer}>
 					<Card style={{ width: "20rem", height: "30rem" }}>
