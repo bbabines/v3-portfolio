@@ -1,12 +1,41 @@
+import { useState } from "react";
+
 import styles from "./Footer.module.css";
-import { FaLinkedin, FaGithub, FaTwitterSquare } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
 const Footer = () => {
+	const [showModal, setShowModal] = useState(false);
+
+	const handleShow = () => setShowModal(true);
+	const handleClose = () => setShowModal(false);
+
 	return (
 		<div className={styles.container}>
 			<h1>3D Logo</h1>
 			<div className={styles.versionContainer}>
-				<p className={styles.version}>v3.0</p>
+				<div
+					className={styles.modalContainer}
+					style={{ display: "block", position: "initial" }}
+				>
+					<Modal show={showModal} onHide={handleClose}>
+						<Modal.Header>
+							<Modal.Title>Previous Versions</Modal.Title>
+						</Modal.Header>
+						<Modal.Body>
+							<p>Version 1 and 2</p>
+						</Modal.Body>
+						<Modal.Footer>
+							<Button variant="secondary" onClick={handleClose}>
+								Close
+							</Button>
+						</Modal.Footer>
+					</Modal>
+				</div>
+				<p className={styles.version} onClick={handleShow}>
+					v3.0
+				</p>
 			</div>
 			<div className={styles.iconContainer}>
 				<FaGithub className={styles.icons} />
