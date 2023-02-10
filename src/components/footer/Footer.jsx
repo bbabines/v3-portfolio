@@ -1,5 +1,6 @@
 import styles from "./Footer.module.css";
-import { FaLinkedin, FaGithub, FaTwitterSquare } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { Modal } from "bootstrap";
 
 const Footer = () => {
 	return (
