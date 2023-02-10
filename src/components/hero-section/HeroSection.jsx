@@ -12,10 +12,11 @@ const HeroSection = () => {
 					I'm a front-end software engineer that builds digital experiences with
 					React and Three.js
 				</p>
+				<div className={styles.buttonContainer}>
+					<Button variant="info">Check out my resume</Button>
+				</div>
 			</div>
-			<div className={styles.buttonContainer}>
-				<Button variant="info">Check out my resume</Button>
-			</div>
+			<h2>3D Element</h2>
 		</div>
 	);
 };

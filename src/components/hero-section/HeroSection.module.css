@@ -1,6 +1,7 @@
 .container {
 	background-color: purple;
 	padding: 0.5em;
+	display: flex;
 }
 
 .textContainer {
