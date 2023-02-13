@@ -1,21 +1,19 @@
 [
 	{
 		"id": 1,
-		"title": "Brad's First PROJECT",
+		"title": "Brad's Paid Project",
 		"image": "Brad.jpeg",
 		"site": "https://bbabines.github.io/dashboard/",
 		"github": "https://github.com/bbabines/brads-clothing",
-		"personal": true,
-		"paid": false
+		"paid": true
 	},
 
 	{
 		"id": 2,
-		"title": "E-Commerce Site",
+		"title": "E-Commerce Personal Site",
 		"image": "brads-clothing-thumb.png",
 		"site": "https://bbabines.github.io/dashboard/",
 		"github": "https://github.com/bbabines/brads-clothing",
-		"personal": true,
 		"paid": false
 	}
 ]

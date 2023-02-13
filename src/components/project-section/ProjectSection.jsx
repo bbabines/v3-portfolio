@@ -1,19 +1,27 @@
 import styles from "./ProjectSection.module.css";
 import { Button, Card } from "react-bootstrap";
-import { default as projects } from "../../project-data.json";
+import { default as projects } from "./project-data.json";
 
 const ProjectSection = () => {
-	console.log(projects);
+	const paidProjects = projects.filter((project) => project.paid === true);
+
+	const personalProjects = projects.filter((project) => project.paid === false);
 
 	return (
 		<div className={styles.container}>
 			<h2 className={styles.projectTitle}>Projects</h2>
+			<div className={styles.filterContainer}>
+				<button type="button">React</button>
+				<button type="button">Three.js</button>
+				<button type="button">Vanilla JS</button>
+				<button type="button">HTML/CSS</button>
+			</div>
 			<div className={styles.projectsContainer}>
 				<h3 className={styles.freelanceTitle}>Freelance Work</h3>
 
-				{projects.map((project) => (
+				{paidProjects.map((project) => (
 					<div key={project.id}>
-						<h4>{project.title}</h4>
+						<h6>{project.title}</h6>
 						<img src={`/${project.image}`} />
 						<div>
 							<a href={project.site} target="_blank">
@@ -50,7 +58,23 @@ const ProjectSection = () => {
 				{/** End Card Component  */}
 				<h3 className={styles.personalTitle}>Personal Projects</h3>
 				<div className={styles.personalContainer}>
-					<Card style={{ width: "20rem", height: "30rem" }}>
+					{personalProjects.map((project) => (
+						<div key={project.id}>
+							<h6>{project.title}</h6>
+							<img src={`/${project.image}`} />
+							<div>
+								<a href={project.site} target="_blank">
+									View Live Demo
+								</a>
+							</div>
+							<div>
+								<a href={project.github} target="_blank">
+									View Code
+								</a>
+							</div>
+						</div>
+					))}
+					{/* <Card style={{ width: "20rem", height: "30rem" }}>
 						<Card.Img
 							className={styles.cardImage}
 							variant="top"
@@ -65,7 +89,7 @@ const ProjectSection = () => {
 							<Button variant="primary">Live Demo</Button> {""}
 							<Button variant="secondary">Check Out The Code</Button>
 						</Card.Body>
-					</Card>
+					</Card> */}
 				</div>
 			</div>
 		</div>
