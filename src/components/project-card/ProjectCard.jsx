@@ -8,26 +8,33 @@ const ProjectCard = () => {
 
 	return (
 		<div className={styles.container}>
-			{paidProjects.map((project) => (
-				<div key={project.id}>
-					<h6 className={styles.cardTitle}>{project.title}</h6>
-					<div className={styles.cardImageContainer}>
+			<div className={styles.cardContainer}>
+				{paidProjects.map((project) => (
+					<div key={project.id}>
+						<h6 className={styles.cardTitle}>{project.title}</h6>
+						<div className={styles.description}>
+							<p>This is the project description. It goes on and on</p>
+						</div>
 						<img src={`/${project.image}`} className={styles.cardImage} />
+						<div className={styles.linkContainer}>
+							<a
+								href={project.site}
+								target="_blank"
+								className={styles.demoLink}
+							>
+								View Live Demo
+							</a>
+							<a
+								href={project.github}
+								target="_blank"
+								className={styles.projectLink}
+							>
+								View Code
+							</a>
+						</div>
 					</div>
-					<div className={styles.linkContainer}>
-						<a href={project.site} target="_blank" className={styles.demoLink}>
-							View Live Demo
-						</a>
-						<a
-							href={project.github}
-							target="_blank"
-							className={styles.projectLink}
-						>
-							View Code
-						</a>
-					</div>
-				</div>
-			))}
+				))}
+			</div>
 		</div>
 	);
 };

@@ -15,5 +15,13 @@
 		"site": "https://bbabines.github.io/dashboard/",
 		"github": "https://github.com/bbabines/brads-clothing",
 		"paid": false
+	},
+	{
+		"id": 3,
+		"title": "E-Commerce Personal Site",
+		"image": "brads-clothing-thumb.png",
+		"site": "https://bbabines.github.io/dashboard/",
+		"github": "https://github.com/bbabines/brads-clothing",
+		"paid": true
 	}
 ]
