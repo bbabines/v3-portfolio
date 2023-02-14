@@ -1,0 +1,34 @@
+.container {
+	background-color: red;
+	max-width: 400px;
+	max-height: 600px;
+}
+
+.cardImageContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.linkContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardImage {
+	max-width: 300px;
+	max-height: 200px;
+
+	width: 90%;
+	object-fit: cover;
+}
+
+.cardTitle {
+	text-align: center;
+}
+
+.demoLink,
+.projectLink {
+	margin: 0 1em;
+}

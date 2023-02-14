@@ -9,18 +9,13 @@ body {
 	margin: 0;
 }
 
-/* body {
-	background-image: url("../../public/assets/banner-bg.png");
-	background-size: cover;
-	object-fit: cover;
-} */
-
 a {
 	color: inherit;
 	text-decoration: none;
 }
 
 img {
+	display: inline-block;
 	max-width: 350px;
 }
 

@@ -1,25 +1,41 @@
 import styles from "./ProjectSection.module.css";
 import { Button, Card } from "react-bootstrap";
+
 import { default as projects } from "./project-data.json";
+import ProjectCard from "../project-card/ProjectCard";
 
 const ProjectSection = () => {
-	const paidProjects = projects.filter((project) => project.paid === true);
+	// const paidProjects = projects.filter((project) => project.paid === true);
 
-	const personalProjects = projects.filter((project) => project.paid === false);
+	// const personalProjects = projects.filter((project) => project.paid === false);
 
 	return (
 		<div className={styles.container}>
 			<h2 className={styles.projectTitle}>Projects</h2>
 			<div className={styles.filterContainer}>
-				<button type="button">React</button>
-				<button type="button">Three.js</button>
-				<button type="button">Vanilla JS</button>
+				<p>Technology</p>
 				<button type="button">HTML/CSS</button>
+				<button type="button">Vanilla JS</button>
+				<button type="button">Three.js</button>
+				<button type="button">React</button>
+				<div>
+					<p>Difficulty</p>
+					<button type="button">Easy</button>
+					<button type="button">Moderate</button>
+					<button type="button">Advanced</button>
+				</div>
+				<div>
+					<p>Size</p>
+					<button type="button">Small Projects</button>
+					<button type="button">Medium Projects</button>
+					<button type="button">Large Projects</button>
+				</div>
 			</div>
 			<div className={styles.projectsContainer}>
 				<h3 className={styles.freelanceTitle}>Freelance Work</h3>
+				<ProjectCard />
 
-				{paidProjects.map((project) => (
+				{/* {paidProjects.map((project) => (
 					<div key={project.id}>
 						<h6>{project.title}</h6>
 						<img src={`/${project.image}`} />
@@ -34,7 +50,7 @@ const ProjectSection = () => {
 							</a>
 						</div>
 					</div>
-				))}
+				))} */}
 
 				{/** Create Card Component  */}
 				{/* <div className={styles.freelanceContainer}>
@@ -56,7 +72,8 @@ const ProjectSection = () => {
 					</Card>
 				</div> */}
 				{/** End Card Component  */}
-				<h3 className={styles.personalTitle}>Personal Projects</h3>
+
+				{/* <h3 className={styles.personalTitle}>Personal Projects</h3>
 				<div className={styles.personalContainer}>
 					{personalProjects.map((project) => (
 						<div key={project.id}>
@@ -73,8 +90,9 @@ const ProjectSection = () => {
 								</a>
 							</div>
 						</div>
-					))}
-					{/* <Card style={{ width: "20rem", height: "30rem" }}>
+					))} */}
+
+				{/* <Card style={{ width: "20rem", height: "30rem" }}>
 						<Card.Img
 							className={styles.cardImage}
 							variant="top"
@@ -90,7 +108,7 @@ const ProjectSection = () => {
 							<Button variant="secondary">Check Out The Code</Button>
 						</Card.Body>
 					</Card> */}
-				</div>
+				{/* </div> */}
 			</div>
 		</div>
 	);
