@@ -1,11 +1,14 @@
 .container {
-	background-color: yellow;
 	padding: 0.5em;
 	display: flex;
 	flex-direction: column;
+
+	background-color: #0a192f;
+	color: white;
 }
 
 .aboutTitle {
+	margin-top: 2em;
 	text-align: center;
 }
 
@@ -13,9 +16,6 @@
 .pictureContainer {
 	max-width: 1800px;
 	margin: 0 auto;
-}
-
-.pictureContainer {
 }
 
 .profilePicture {
