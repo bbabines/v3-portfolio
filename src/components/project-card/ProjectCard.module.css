@@ -24,8 +24,6 @@
 /* TO DO:
 1. Fix bug where transition does not cover links on second project. Look at diff screen sizes. Boxes do not line up at all.
 
-3. Figure out the props to pass this for paid/personal
-
 */
 .cardImage {
 	max-width: 300px;
@@ -38,7 +36,7 @@
 	/* border: 1px solid red; */
 }
 
-.description {
+/* .description {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -63,7 +61,7 @@
 
 .description:hover {
 	opacity: 0.9;
-}
+} */
 
 .cardTitle {
 	text-align: center;
