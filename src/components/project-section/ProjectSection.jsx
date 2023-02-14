@@ -7,7 +7,7 @@ import {
 
 const ProjectSection = () => {
 	return (
-		<div className={styles.container}>
+		<div id="projects" className={styles.container}>
 			<h2 className={styles.projectTitle}>Projects</h2>
 			<div className={styles.filterContainer}>
 				<p>Technology</p>

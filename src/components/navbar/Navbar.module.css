@@ -1,6 +1,15 @@
 .container {
-	color: white;
-	background-color: red;
+	background-color: #0a192f;
+	font-family: Roboto;
+
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+
+	/* position: sticky;
+	top: 0;
+	background-color: transparent; */
 }
 
 .navContainer {
@@ -9,13 +18,23 @@
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
+
+	/* border: 1px solid yellow; */
+}
+
+.linkContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid orange; */
 }
 
 .signature {
 	font-size: 1.25rem;
 	margin: 1em auto 0.5em 1em;
 
-	color: black;
+	font-family: "Dancing Script", cursive;
+	color: white;
 	text-decoration: none;
 }
 
@@ -24,8 +43,9 @@
 	font-size: 1.25rem;
 	margin: 1em 1em 0.5em 1em;
 
-	color: black;
+	color: white;
 	text-decoration: none;
+	/* border: 1px solid red; */
 }
 
 .signature:hover,
@@ -34,7 +54,9 @@
 .navLinks:focus,
 .homeLink:hover,
 .homeLink:focus {
-	color: white;
+	color: grey;
+	/* border-bottom: 1px solid grey; */
+	cursor: pointer;
 }
 
 /* Very Small */
@@ -47,6 +69,12 @@
 		margin: 0 auto;
 	}
 
+	.linkContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.homeLink {
 		display: none;
 	}
@@ -56,6 +84,12 @@
 @media screen and (min-width: 361px) and (max-width: 599px) {
 	.signature {
 		font-size: 1.25rem;
+	}
+
+	.linkContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.navLinks {

@@ -1,38 +1,82 @@
 .container {
-	background-color: purple;
+	margin-top: 3.7em;
+
+	background-color: #0a192f;
+	color: white;
 	padding: 0.5em;
+	font-family: Roboto;
 
 	/* display: flex; */
 	/* flex-direction: column; */
-	border: 2px solid black;
+	/* border: 2px solid black; */
 }
 
 .secondContainer {
 	display: flex;
 	align-items: center;
+
+	min-height: 300px;
+	min-width: 300px;
+
+	/* border: 2px solid pink; */
 }
 
 .textContainer {
 	max-width: 1800px;
 	margin: 0 auto;
+	padding: 5em;
 
-	border: 2px solid yellow;
+	/* border: 2px solid yellow; */
 }
 
 .buttonContainer {
 	margin: 0 auto;
 
-	border: 2px solid orange;
+	/* border: 2px solid orange; */
 }
 
 .animationContainer {
 	margin: 0 auto;
 	max-width: 1800px;
-	border: 2px solid green;
+	/* border: 2px solid green; */
 }
 
-/* 
+.name {
+	margin-top: 0;
+	font-size: 6rem;
+}
 
-Need to align left side (text) with rest of site's left-margin
+.smallIntro {
+	margin-bottom: 0;
+	color: #4bf1d0;
+}
 
-*/
+.firstLineIntro {
+	margin-bottom: 0;
+	font-size: 1rem;
+	color: grey;
+}
+
+.secondLineIntro {
+	margin-top: 0;
+	font-size: 1.5rem;
+	color: grey;
+}
+
+.resumeButton {
+	background-color: #4bf1d0;
+}
+
+/* Very Small */
+@media screen and (max-width: 360px) {
+	.animationContainer {
+		display: none;
+	}
+}
+
+/* Mobile */
+@media screen and (min-width: 361px) and (max-width: 599px) {
+	.animationContainer {
+		display: none;
+	}
+}
