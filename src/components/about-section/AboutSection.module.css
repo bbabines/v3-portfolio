@@ -2,9 +2,11 @@
 	padding: 0.5em;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 	background-color: #0a192f;
-	color: white;
+	color: grey;
 }
 
 .aboutTitle {
@@ -15,9 +17,25 @@
 .aboutContainer,
 .pictureContainer {
 	max-width: 1800px;
-	margin: 0 auto;
+	margin: 1em 1em;
+
+	border: 1px solid red;
+}
+
+.pictureContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .profilePicture {
 	border-radius: 40px;
+}
+
+@media (min-width: 800px) {
+	.aboutContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
