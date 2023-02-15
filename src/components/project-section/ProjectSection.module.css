@@ -1,12 +1,22 @@
 .container {
-	background-color: green;
+	background-color: #0a192f;
+	color: white;
+	font-family: Roboto;
+}
+
+.filterContainer {
+	margin: auto 1em 1em;
+
+	/* border: 1px solid yellow; */
 }
 
 .projectsContainer {
 	display: flex;
 	flex-direction: column;
 	max-width: 1800px;
-	margin: 0 auto;
+	margin: 0 1em;
+
+	border: 1px solid red;
 }
 
 .personalContainer,
@@ -16,6 +26,17 @@
 	justify-content: center;
 }
 
+.filterTitle {
+	margin: 0.25em 0.25em 0 0.25em;
+	font-size: 1.25rem;
+}
+
+.filterButtons {
+	margin: 0 0.25em 0.25em;
+
+	/* border-radius: 10px; */
+}
+
 .projectTitle {
 	text-align: center;
 	padding-top: 2em;
@@ -23,7 +44,7 @@
 
 .freelanceTitle,
 .personalTitle {
-	margin-left: 0.5em;
+	margin-top: 0.5em;
 }
 
 .cardImage {

@@ -12,6 +12,7 @@
 .aboutTitle {
 	margin-top: 2em;
 	text-align: center;
+	color: white;
 }
 
 .aboutContainer,
@@ -19,7 +20,7 @@
 	max-width: 1800px;
 	margin: 1em 1em;
 
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .pictureContainer {

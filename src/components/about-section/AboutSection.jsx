@@ -7,12 +7,12 @@ const AboutSection = () => {
 
 			<div className={styles.aboutContainer}>
 				<div className={styles.descriptionContainer}>
-					<h5>
-						<span style={{ color: "white" }}>
+					<h6>
+						<span style={{ color: " #4bf1d0" }}>
 							Hello! My name is Brad and I enjoy building websites,
 							applications, and immersive experiences.
 						</span>
-					</h5>
+					</h6>
 					<p>
 						While I’ve always loved computers, my passion for coding is
 						relatively new. I stumbled upon this new venture when a friend and I
@@ -21,13 +21,16 @@ const AboutSection = () => {
 						project. So I decided to learn to code. To my surprise, I loved it!
 					</p>
 					<p>
-						I began using The Odin Project, Free Code Camp, and Codecademy as
-						introductory resources for this new chapter in my life. Afterwards,
-						I further refined my coding skills from Bob Ziroll and Kevin Powell
-						on Scrimba. I then decided to leave my formal education and career
-						in healthcare behind. Fast-forward to today and I am working at a
-						software company getting a foundation of technical knowledge under
-						my belt while doing freelance web development on the side.
+						<span style={{ color: "white" }}>
+							I began using The Odin Project, Free Code Camp, and Codecademy as
+							introductory resources for this new chapter in my life.
+							Afterwards, I further refined my coding skills from Bob Ziroll and
+							Kevin Powell on Scrimba. I then decided to leave my formal
+							education and career in healthcare behind. Fast-forward to today
+							and I am working at a software company getting a foundation of
+							technical knowledge under my belt while doing freelance web
+							development on the side.
+						</span>
 					</p>
 					<p>
 						I continue to refine my coding skills while building my passion

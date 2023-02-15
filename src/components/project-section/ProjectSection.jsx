@@ -1,3 +1,4 @@
+import { Button } from "react-bootstrap";
 import styles from "./ProjectSection.module.css";
 
 import {
@@ -10,22 +11,42 @@ const ProjectSection = () => {
 		<div id="projects" className={styles.container}>
 			<h2 className={styles.projectTitle}>Projects</h2>
 			<div className={styles.filterContainer}>
-				<p>Technology</p>
-				<button type="button">HTML/CSS</button>
-				<button type="button">Vanilla JS</button>
-				<button type="button">Three.js</button>
-				<button type="button">React</button>
+				<p className={styles.filterTitle}>Technology</p>
+				<Button className={styles.filterButtons} variant="info" type="button">
+					HTML/CSS
+				</Button>
+				<Button className={styles.filterButtons} variant="info" type="button">
+					Vanilla JS
+				</Button>
+				<Button className={styles.filterButtons} variant="info" type="button">
+					Three.js
+				</Button>
+				<Button className={styles.filterButtons} variant="info" type="button">
+					React
+				</Button>
 				<div>
-					<p>Difficulty</p>
-					<button type="button">Easy</button>
-					<button type="button">Moderate</button>
-					<button type="button">Advanced</button>
+					<p className={styles.filterTitle}>Difficulty</p>
+					<Button className={styles.filterButtons} variant="info" type="button">
+						Easy
+					</Button>
+					<Button className={styles.filterButtons} variant="info" type="button">
+						Moderate
+					</Button>
+					<Button className={styles.filterButtons} variant="info" type="button">
+						Advanced
+					</Button>
 				</div>
 				<div>
-					<p>Size</p>
-					<button type="button">Small Projects</button>
-					<button type="button">Medium Projects</button>
-					<button type="button">Large Projects</button>
+					<p className={styles.filterTitle}>Size</p>
+					<Button className={styles.filterButtons} variant="info" type="button">
+						Small Projects
+					</Button>
+					<Button className={styles.filterButtons} variant="info" type="button">
+						Medium Projects
+					</Button>
+					<Button className={styles.filterButtons} variant="info" type="button">
+						Large Projects
+					</Button>
 				</div>
 			</div>
 			<div className={styles.projectsContainer}>

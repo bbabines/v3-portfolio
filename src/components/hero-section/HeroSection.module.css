@@ -7,13 +7,16 @@
 	font-family: Roboto;
 	height: 100vh;
 
-	/* display: flex; */
-	/* flex-direction: column; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 	/* border: 2px solid black; */
 }
 
 .secondContainer {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 
 	min-height: 300px;
@@ -24,6 +27,7 @@
 
 .textContainer {
 	max-width: 1800px;
+	min-width: 5em;
 	margin: 0 auto;
 	padding: 5em;
 
@@ -39,6 +43,13 @@
 .animationContainer {
 	margin: 0 auto;
 	max-width: 1800px;
+	min-width: 500px;
+	min-height: 500px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 	/* border: 2px solid green; */
 }
 
