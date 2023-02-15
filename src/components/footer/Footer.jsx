@@ -13,7 +13,7 @@ const Footer = () => {
 
 	return (
 		<div className={styles.container}>
-			<h1>3D Logo</h1>
+			<h1 className={styles.logo}>3D Logo</h1>
 			<div className={styles.versionContainer}>
 				<div
 					className={styles.modalContainer}

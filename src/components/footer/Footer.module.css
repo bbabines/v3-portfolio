@@ -1,5 +1,8 @@
 .container {
-	background-color: coral;
+	background-color: #0a192f;
+	color: white;
+	font-family: Roboto;
+
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -9,12 +12,16 @@
 	padding-top: 1em;
 }
 
+.logo {
+	margin-left: 0.5em;
+}
+
 .version {
 	font-weight: 500;
+	border-bottom: 2px solid white;
 }
 
 .version:hover {
-	border-bottom: 2px solid black;
 	cursor: pointer;
 }
 

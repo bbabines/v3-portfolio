@@ -4,7 +4,10 @@ import { Button } from "react-bootstrap";
 const ContactSection = () => {
 	return (
 		<div className={styles.container}>
-			<h1 className={styles.animation}>Animation</h1>
+			<div className={styles.animationContainer}>
+				<h1 className={styles.animation}>Animation</h1>
+			</div>
+
 			<div className={styles.formContainer}>
 				<h2 className={styles.formTitle}>Get In Touch</h2>
 				<form

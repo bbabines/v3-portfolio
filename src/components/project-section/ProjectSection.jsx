@@ -51,7 +51,9 @@ const ProjectSection = () => {
 			</div>
 			<div className={styles.projectsContainer}>
 				<h3 className={styles.freelanceTitle}>Freelance Work</h3>
-				<PaidProjectCards />
+				<div className={styles.freelanceContainer}>
+					<PaidProjectCards />
+				</div>
 				<h3 className={styles.personalTitle}>Personal Projects</h3>
 				<PersonalProjectCards />
 			</div>

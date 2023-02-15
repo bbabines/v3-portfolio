@@ -1,13 +1,33 @@
 .container {
-	background-color: lightblue;
+	background-color: #0a192f;
+	color: white;
+	font-family: Roboto;
+
 	display: flex;
-	/* border: 3px solid green; */
+	justify-content: space-evenly;
+	align-items: center;
+
+	border: 3px solid green;
+}
+
+.animationContainer {
+	margin-left: 1em;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	min-width: 300px;
+	min-height: 300px;
+	border: 3px solid purple;
 }
 
 .formContainer {
-	margin: 0 auto;
+	/* margin: 0 auto; */
+	padding: 0.5em 1em;
+	min-width: 500px;
 	max-width: 800px;
-	/* border: 2px solid black; */
+	border: 2px solid yellow;
 }
 
 .nameContainer,
@@ -54,4 +74,10 @@
 	margin: 0.5em 0.5em 0.5em 0;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
+}
+
+@media (max-width: 800px) {
+	.animationContainer {
+		display: none;
+	}
 }

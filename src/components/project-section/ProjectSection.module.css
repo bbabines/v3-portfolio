@@ -13,6 +13,7 @@
 .projectsContainer {
 	display: flex;
 	flex-direction: column;
+
 	max-width: 1800px;
 	margin: 0 1em;
 
@@ -22,8 +23,16 @@
 .personalContainer,
 .freelanceContainer {
 	margin-bottom: 2em;
+
+	/* display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr; */
+
 	display: flex;
-	justify-content: center;
+	/* flex-direction: column; */
+	/* justify-content: center; */
+
+	border: 1px solid pink;
 }
 
 .filterTitle {
@@ -33,6 +42,8 @@
 
 .filterButtons {
 	margin: 0 0.25em 0.25em;
+	background-color: #4bf1d0;
+	border: none;
 
 	/* border-radius: 10px; */
 }
