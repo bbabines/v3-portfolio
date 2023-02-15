@@ -21,10 +21,11 @@ const Footer = () => {
 				>
 					<Modal show={showModal} onHide={handleClose}>
 						<Modal.Header>
-							<Modal.Title>Previous Versions</Modal.Title>
+							<Modal.Title>Previous Portfolio Versions</Modal.Title>
 						</Modal.Header>
 						<Modal.Body>
-							<p>Version 1 and 2</p>
+							<p>Version 1</p>
+							<p>Version 2</p>
 						</Modal.Body>
 						<Modal.Footer>
 							<Button variant="secondary" onClick={handleClose}>
