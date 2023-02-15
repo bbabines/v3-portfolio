@@ -7,7 +7,19 @@
 .filterContainer {
 	margin: auto 1em 1em;
 
-	/* border: 1px solid yellow; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	border: 1px solid yellow;
+}
+
+.technologyFilterContainer,
+.difficultyFilterContainer,
+.sizeFilterContainer {
+	display: flex;
+	margin: auto 1em;
 }
 
 .projectsContainer {
@@ -29,8 +41,9 @@
 	grid-template-columns: 1fr; */
 
 	display: flex;
-	/* flex-direction: column; */
-	/* justify-content: center; */
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
 
 	border: 1px solid pink;
 }
@@ -41,7 +54,7 @@
 }
 
 .filterButtons {
-	margin: 0 0.25em 0.25em;
+	margin: 0.25em 0.25em;
 	background-color: #4bf1d0;
 	border: none;
 

@@ -11,20 +11,24 @@ const ProjectSection = () => {
 		<div id="projects" className={styles.container}>
 			<h2 className={styles.projectTitle}>Projects</h2>
 			<div className={styles.filterContainer}>
-				<p className={styles.filterTitle}>Technology</p>
-				<Button className={styles.filterButtons} variant="info" type="button">
-					HTML/CSS
-				</Button>
-				<Button className={styles.filterButtons} variant="info" type="button">
-					Vanilla JS
-				</Button>
-				<Button className={styles.filterButtons} variant="info" type="button">
-					Three.js
-				</Button>
-				<Button className={styles.filterButtons} variant="info" type="button">
-					React
-				</Button>
-				<div>
+				<div className={styles.technologyFilterContainer}>
+					<p className={styles.filterTitle}>Technology</p>
+					<Button className={styles.filterButtons} variant="info" type="button">
+						HTML/CSS
+					</Button>
+
+					<Button className={styles.filterButtons} variant="info" type="button">
+						Vanilla JS
+					</Button>
+
+					<Button className={styles.filterButtons} variant="info" type="button">
+						Three.js
+					</Button>
+					<Button className={styles.filterButtons} variant="info" type="button">
+						React
+					</Button>
+				</div>
+				<div className={styles.difficultyFilterContainer}>
 					<p className={styles.filterTitle}>Difficulty</p>
 					<Button className={styles.filterButtons} variant="info" type="button">
 						Easy
@@ -36,7 +40,7 @@ const ProjectSection = () => {
 						Advanced
 					</Button>
 				</div>
-				<div>
+				<div className={styles.sizeFilterContainer}>
 					<p className={styles.filterTitle}>Size</p>
 					<Button className={styles.filterButtons} variant="info" type="button">
 						Small Projects
@@ -55,7 +59,9 @@ const ProjectSection = () => {
 					<PaidProjectCards />
 				</div>
 				<h3 className={styles.personalTitle}>Personal Projects</h3>
-				<PersonalProjectCards />
+				<div className={styles.personalContainer}>
+					<PersonalProjectCards />
+				</div>
 			</div>
 		</div>
 	);
