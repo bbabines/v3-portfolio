@@ -9,9 +9,35 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
 
-	/* border: 1px solid orange; */
+	margin: 1em;
+
+	/* flex-wrap: wrap; */
+
+	border: 1px solid orange;
+}
+
+.imageContainer {
+	margin: 1em;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 15px;
+}
+
+.cardImage {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+
+	/* width: 100%;
+	height: 100%; */
+
+	border-radius: 15px;
+
+	/* border: 1px solid red; */
 }
 
 .linkContainer {
@@ -25,16 +51,6 @@
 1. Fix bug where transition does not cover links on second project. Look at diff screen sizes. Boxes do not line up at all.
 
 */
-.cardImage {
-	max-width: 300px;
-	max-height: 200px;
-
-	width: 90%;
-	object-fit: cover;
-	border-radius: 15px;
-
-	/* border: 1px solid red; */
-}
 
 /* .description {
 	display: flex;
@@ -65,17 +81,28 @@
 
 .cardTitle {
 	text-align: center;
+	margin-top: 1em;
 }
 
 .demoLink,
 .projectLink {
-	margin: 0 1em;
+	margin: 0 0.5em;
 
 	color: inherit;
 	text-decoration: none;
 
 	font-weight: 500;
 
-	border: 1px solid black;
+	padding: 0.5em 1em;
+	background-color: #4bf1d0;
+	color: black;
+
 	border-radius: 5px;
+}
+
+/* Change hover color to match Bootstrap */
+.demoLink:hover,
+.projectLink:hover {
+	background-color: cyan;
+	color: black;
 }
