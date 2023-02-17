@@ -4,9 +4,9 @@ import { Button } from "react-bootstrap";
 const ContactSection = () => {
 	return (
 		<div className={styles.container}>
-			<div className={styles.animationContainer}>
+			{/* <div className={styles.animationContainer}>
 				<h1 className={styles.animation}>Animation</h1>
-			</div>
+			</div> */}
 
 			<div className={styles.formContainer}>
 				<h2 className={styles.formTitle}>Get In Touch</h2>

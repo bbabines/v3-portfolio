@@ -13,7 +13,11 @@ const Footer = () => {
 
 	return (
 		<div className={styles.container}>
-			<h1 className={styles.logo}>3D Logo</h1>
+			{/* <h1 className={styles.logo}>3D Logo</h1> */}
+			<div className={styles.iconContainer}>
+				<FaGithub className={styles.icons} />
+				{/* <FaLinkedin className={styles.icons} /> */}
+			</div>
 			<div className={styles.versionContainer}>
 				<div
 					className={styles.modalContainer}
@@ -39,7 +43,7 @@ const Footer = () => {
 				</p>
 			</div>
 			<div className={styles.iconContainer}>
-				<FaGithub className={styles.icons} />
+				{/* <FaGithub className={styles.icons} /> */}
 				<FaLinkedin className={styles.icons} />
 			</div>
 		</div>

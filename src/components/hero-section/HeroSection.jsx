@@ -19,9 +19,9 @@ const HeroSection = () => {
 						</Button>
 					</div>
 				</div>
-				<div className={styles.animationContainer}>
+				{/* <div className={styles.animationContainer}>
 					<h2>3D Element</h2>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
