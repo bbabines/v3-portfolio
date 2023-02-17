@@ -42,6 +42,12 @@
 	/* border: 1px solid red; */
 }
 
+.filterContainer {
+	margin-top: 0.5em;
+
+	/* border: 1px solid red; */
+}
+
 .personalContainer,
 .freelanceContainer {
 	margin-bottom: 2em;
@@ -63,12 +69,12 @@
 .filterTitle {
 	margin: 0.25em 0.25em 0 0.25em;
 	font-size: 1.25rem;
+
+	/* border: 1px solid grey; */
 }
 
 .filterButtons {
 	margin: 0.25em 0.25em;
-	background-color: #4bf1d0;
-	border: none;
 
 	/* border-radius: 10px; */
 }

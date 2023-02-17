@@ -1,5 +1,6 @@
 import styles from "./ProjectCard.module.css";
 import { default as projects } from "../project-section/project-data.json";
+import { Button } from "react-bootstrap";
 
 export const PaidProjectCards = () => {
 	const paidProjects = projects.filter((project) => project.paid === true);
@@ -18,20 +19,26 @@ export const PaidProjectCards = () => {
 							<img src={`/${project.image}`} className={styles.cardImage} />
 						</div>
 						<div className={styles.linkContainer}>
-							<a
+							<Button disabled className={styles.demoLink}>
+								Live Demo
+							</Button>
+							{/* <a
 								href={project.site}
 								target="_blank"
 								className={styles.demoLink}
 							>
-								View Live Demo
-							</a>
-							<a
+								Live Demo
+							</a> */}
+							<Button disabled className={styles.projectLink}>
+								View Code
+							</Button>
+							{/* <a
 								href={project.github}
 								target="_blank"
 								className={styles.projectLink}
 							>
 								View Code
-							</a>
+							</a> */}
 						</div>
 					</div>
 				))}
@@ -62,7 +69,7 @@ export const PersonalProjectCards = () => {
 								target="_blank"
 								className={styles.demoLink}
 							>
-								View Live Demo
+								Live Demo
 							</a>
 							<a
 								href={project.github}

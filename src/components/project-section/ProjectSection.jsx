@@ -13,18 +13,18 @@ const ProjectSection = () => {
 			<div className={styles.filterContainer}>
 				<div className={styles.technologyFilterContainer}>
 					<p className={styles.filterTitle}>Technology</p>
-					<Button className={styles.filterButtons} variant="info" type="button">
+					<Button className={styles.filterButtons} type="button">
 						HTML/CSS
 					</Button>
 
-					<Button className={styles.filterButtons} variant="info" type="button">
+					<Button className={styles.filterButtons} type="button">
 						Vanilla JS
 					</Button>
 
-					<Button className={styles.filterButtons} variant="info" type="button">
+					<Button className={styles.filterButtons} type="button">
 						Three.js
 					</Button>
-					<Button className={styles.filterButtons} variant="info" type="button">
+					<Button className={styles.filterButtons} type="button">
 						React
 					</Button>
 				</div>
@@ -42,13 +42,13 @@ const ProjectSection = () => {
 				</div> */}
 				<div className={styles.sizeFilterContainer}>
 					<p className={styles.filterTitle}>Size</p>
-					<Button className={styles.filterButtons} variant="info" type="button">
+					<Button className={styles.filterButtons} type="button">
 						Small Projects
 					</Button>
-					<Button className={styles.filterButtons} variant="info" type="button">
+					<Button className={styles.filterButtons} type="button">
 						Medium Projects
 					</Button>
-					<Button className={styles.filterButtons} variant="info" type="button">
+					<Button className={styles.filterButtons} type="button">
 						Large Projects
 					</Button>
 				</div>

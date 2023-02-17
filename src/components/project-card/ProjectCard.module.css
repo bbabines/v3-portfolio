@@ -13,8 +13,6 @@
 
 	margin: 1em;
 
-	/* flex-wrap: wrap; */
-
 	/* border: 1px solid orange; */
 }
 
@@ -32,9 +30,6 @@
 	height: 150px;
 	width: 200px;
 	object-fit: cover;
-
-	/* width: 100%;
-	height: 100%; */
 
 	border-radius: 15px;
 
@@ -87,23 +82,19 @@
 
 .demoLink,
 .projectLink {
-	margin: 0 0.5em;
+	margin: 0 0.25em;
 
+	background-color: #0d6efd;
 	color: inherit;
 	text-decoration: none;
 
 	font-weight: 500;
-
 	padding: 0.5em 1em;
-	background-color: #0d6efd;
-	color: black;
-
 	border-radius: 5px;
 }
 
-/* Change hover color to match Bootstrap */
 .demoLink:hover,
 .projectLink:hover {
-	background-color: cyan;
-	color: black;
+	background-color: #0b5ed7;
+	color: white;
 }
