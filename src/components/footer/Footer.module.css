@@ -25,6 +25,8 @@
 
 .version:hover {
 	cursor: pointer;
+	color: grey;
+	border-bottom: 2px solid grey;
 }
 
 .iconContainer {
@@ -40,5 +42,5 @@
 }
 
 .icons:hover {
-	color: black;
+	color: grey;
 }

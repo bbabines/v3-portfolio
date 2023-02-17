@@ -10,7 +10,9 @@ const ContactSection = () => {
 			</div> */}
 
 			<div className={styles.formContainer}>
-				<h2 className={styles.formTitle}>Get In Touch</h2>
+				<h4 className={styles.formTitle}>
+					Have a project in mind? Get In Touch
+				</h4>
 				<form
 					action="mailto:bbabines@gmail.com"
 					method="POST"

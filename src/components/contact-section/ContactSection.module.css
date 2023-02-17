@@ -34,9 +34,11 @@
 
 .formContainer {
 	/* margin: 0 auto; */
-	padding: 0.5em 1em;
-	min-width: 500px;
-	max-width: 800px;
+	/* padding: 5em 5em; */
+	height: 60%;
+	width: 40%;
+	/* min-width: 500px; */
+	/* max-width: 800px; */
 	/* border: 2px solid yellow; */
 }
 
@@ -64,6 +66,7 @@
 
 .formTitle {
 	text-align: center;
+	color: #4bf1d0;
 }
 
 .textArea {

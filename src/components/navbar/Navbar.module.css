@@ -39,7 +39,7 @@
 .navLinks,
 .homeLink {
 	font-size: 1.25rem;
-	margin: 1em 1em 0.5em 1em;
+	margin: 1em 1.5em 0.5em 1.5em;
 
 	color: white;
 	text-decoration: none;
@@ -92,7 +92,7 @@
 
 	.navLinks {
 		font-size: 1.25rem;
-		margin: 0.25em 0.25em 0.5em 0.25em;
+		margin: 0.5em 0.75em 0.5em 0.25em;
 	}
 
 	.homeLink {
