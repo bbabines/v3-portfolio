@@ -15,7 +15,13 @@ const Footer = () => {
 		<div className={styles.container}>
 			{/* <h1 className={styles.logo}>3D Logo</h1> */}
 			<div className={styles.iconContainer}>
-				<FaGithub className={styles.icons} />
+				<a
+					className={styles.githubIcon}
+					href="https://github.com/bbabines"
+					target="_blank"
+				>
+					<FaGithub className={styles.icons} />
+				</a>
 				{/* <FaLinkedin className={styles.icons} /> */}
 			</div>
 			<div className={styles.versionContainer}>
@@ -44,7 +50,9 @@ const Footer = () => {
 			</div>
 			<div className={styles.iconContainer}>
 				{/* <FaGithub className={styles.icons} /> */}
-				<FaLinkedin className={styles.icons} />
+				<a href="https://www.linkedin.com/in/bradbabines/" target="_blank">
+					<FaLinkedin className={styles.icons} />
+				</a>
 			</div>
 		</div>
 	);

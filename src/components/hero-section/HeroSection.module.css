@@ -81,6 +81,10 @@
 	border: none;
 }
 
+.resumeButton:hover {
+	background-color: white;
+}
+
 /* Very Small */
 @media screen and (max-width: 360px) {
 	.animationContainer {

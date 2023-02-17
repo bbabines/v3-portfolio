@@ -14,9 +14,11 @@ const HeroSection = () => {
 						with React and Three.js
 					</p>
 					<div className={styles.buttonContainer}>
-						<Button variant="info" className={styles.resumeButton}>
-							Check out my resume
-						</Button>
+						<a href="resume.pdf" target="_blank" rel="noopener noreferrer">
+							<Button variant="info" className={styles.resumeButton}>
+								Check out my resume
+							</Button>
+						</a>
 					</div>
 				</div>
 				{/* <div className={styles.animationContainer}>

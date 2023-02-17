@@ -36,4 +36,9 @@
 	height: 3em;
 	width: 1.5em;
 	margin: 0 1em;
+	color: white;
+}
+
+.icons:hover {
+	color: black;
 }

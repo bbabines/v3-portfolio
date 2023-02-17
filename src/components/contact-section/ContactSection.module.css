@@ -12,7 +12,7 @@
 
 	height: 90vh;
 
-	border: 3px solid green;
+	/* border: 3px solid green; */
 }
 
 /* .animationContainer {
@@ -37,7 +37,7 @@
 	padding: 0.5em 1em;
 	min-width: 500px;
 	max-width: 800px;
-	border: 2px solid yellow;
+	/* border: 2px solid yellow; */
 }
 
 .nameContainer,

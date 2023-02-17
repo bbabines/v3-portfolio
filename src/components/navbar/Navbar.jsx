@@ -14,11 +14,11 @@ const Navbar = () => {
 					Brad Babines
 				</a>
 				<div className={styles.linkContainer}>
-					{darkmode ? (
+					{/* {darkmode ? (
 						<IoPartlySunnyOutline className={styles.navLinks} />
 					) : (
 						<IoMoonOutline className={styles.navLinks} />
-					)}
+					)} */}
 
 					<a href="#top" className={styles.homeLink}>
 						Home
