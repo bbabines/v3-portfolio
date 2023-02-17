@@ -6,13 +6,16 @@
 	padding-bottom: 1em;
 
 	display: flex;
+	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
 
-	/* border: 3px solid green; */
+	height: 90vh;
+
+	border: 3px solid green;
 }
 
-.animationContainer {
+/* .animationContainer {
 	margin-left: 1em;
 
 	display: flex;
@@ -21,15 +24,20 @@
 
 	min-width: 300px;
 	min-height: 300px;
-	/* border: 3px solid purple; */
-}
+	border: 3px solid purple;
+} */
+
+/* .contactTitle {
+	padding-top: 3em;
+	border: 1px solid purple;
+} */
 
 .formContainer {
 	/* margin: 0 auto; */
 	padding: 0.5em 1em;
 	min-width: 500px;
 	max-width: 800px;
-	/* border: 2px solid yellow; */
+	border: 2px solid yellow;
 }
 
 .nameContainer,

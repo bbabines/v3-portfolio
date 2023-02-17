@@ -2,6 +2,12 @@
 	background-color: #0a192f;
 	color: white;
 	padding: 1em;
+	padding-bottom: 15em;
+
+	/* display: flex; */
+	/* flex-direction: column; */
+
+	border: 2px solid red;
 }
 
 .skillsContainer > ul,
@@ -14,6 +20,8 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 2em;
 	row-gap: 2em;
+
+	/* border: 2px solid red; */
 }
 
 .skillsContainer,
@@ -35,7 +43,8 @@
 
 .skillsTitle {
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 3em;
+	margin-bottom: 3em;
 }
 
 /* 

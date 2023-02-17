@@ -7,12 +7,13 @@ const AboutSection = () => {
 
 			<div className={styles.aboutContainer}>
 				<div className={styles.descriptionContainer}>
-					<h6>
+					<p>
 						<span style={{ color: " #4bf1d0" }}>
-							Hello! My name is Brad and I enjoy building websites,
+							Hello! I am a React developer and I enjoy building websites,
 							applications, and immersive experiences.
 						</span>
-					</h6>
+					</p>
+					{/* <br /> */}
 					<p>
 						While I’ve always loved computers, my passion for coding is
 						relatively new. I stumbled upon this new venture when a friend and I
@@ -20,6 +21,7 @@ const AboutSection = () => {
 						our ideas needed to be tested but there was no funding for the
 						project. So I decided to learn to code. To my surprise, I loved it!
 					</p>
+					{/* <br /> */}
 					<p>
 						<span style={{ color: "white" }}>
 							I began using The Odin Project, Free Code Camp, and Codecademy as
@@ -32,11 +34,13 @@ const AboutSection = () => {
 							development on the side.
 						</span>
 					</p>
+					{/* <br /> */}
 					<p>
 						I continue to refine my coding skills while building my passion
 						project. I've recently discovered that 3D content, animations, and
 						micro-interactions are a source of joy.
 					</p>
+					<br />
 					<p>
 						Outside of coding I have strong interests in Brazilian Jiu Jitsu
 						(BJJ), working out, online-gaming, and spending time with my family.

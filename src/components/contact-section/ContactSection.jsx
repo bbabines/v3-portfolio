@@ -3,7 +3,8 @@ import { Button } from "react-bootstrap";
 
 const ContactSection = () => {
 	return (
-		<div className={styles.container}>
+		<div id="contact" className={styles.container}>
+			<h2 className={styles.contactTitle}>Contact</h2>
 			{/* <div className={styles.animationContainer}>
 				<h1 className={styles.animation}>Animation</h1>
 			</div> */}
