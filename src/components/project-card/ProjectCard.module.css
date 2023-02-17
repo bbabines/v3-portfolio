@@ -9,12 +9,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 
 	margin: 1em;
 
 	/* flex-wrap: wrap; */
 
-	border: 1px solid orange;
+	/* border: 1px solid orange; */
 }
 
 .imageContainer {
@@ -28,8 +29,8 @@
 }
 
 .cardImage {
-	height: 300px;
-	width: 300px;
+	height: 150px;
+	width: 200px;
 	object-fit: cover;
 
 	/* width: 100%;
@@ -94,7 +95,7 @@
 	font-weight: 500;
 
 	padding: 0.5em 1em;
-	background-color: #4bf1d0;
+	background-color: #0d6efd;
 	color: black;
 
 	border-radius: 5px;

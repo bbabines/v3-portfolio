@@ -28,7 +28,7 @@ const ProjectSection = () => {
 						React
 					</Button>
 				</div>
-				<div className={styles.difficultyFilterContainer}>
+				{/* <div className={styles.difficultyFilterContainer}>
 					<p className={styles.filterTitle}>Difficulty</p>
 					<Button className={styles.filterButtons} variant="info" type="button">
 						Easy
@@ -39,7 +39,7 @@ const ProjectSection = () => {
 					<Button className={styles.filterButtons} variant="info" type="button">
 						Advanced
 					</Button>
-				</div>
+				</div> */}
 				<div className={styles.sizeFilterContainer}>
 					<p className={styles.filterTitle}>Size</p>
 					<Button className={styles.filterButtons} variant="info" type="button">
