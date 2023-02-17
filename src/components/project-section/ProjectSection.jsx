@@ -1,5 +1,8 @@
+import { useState } from "react";
 import { Button } from "react-bootstrap";
 import styles from "./ProjectSection.module.css";
+
+// import { default as projects } from "../project-section/project-data.json";
 
 import {
 	PersonalProjectCards,
@@ -7,13 +10,28 @@ import {
 } from "../project-card/ProjectCard";
 
 const ProjectSection = () => {
+	// const [filter, setFilter] = useState(false);
+
+	// const filterHTML = projects.filter(
+	// 	(project) => project.technology === "html"
+	// );
+
+	// const hideHTML = () => {
+	// 	setFilter((prevFilter) => !prevFilter);
+	// 	console.log(filter);
+	// };
+
 	return (
 		<div id="projects" className={styles.container}>
 			<h2 className={styles.projectTitle}>Projects</h2>
 			<div className={styles.filterContainer}>
 				<div className={styles.technologyFilterContainer}>
 					<p className={styles.filterTitle}>Technology</p>
-					<Button className={styles.filterButtons} type="button">
+					<Button
+						// onClick={hideHTML}
+						className={styles.filterButtons}
+						type="button"
+					>
 						HTML/CSS
 					</Button>
 

@@ -5,7 +5,9 @@
 		"image": "kubera-thumb.png",
 		"site": "#",
 		"github": "#",
-		"paid": true
+		"paid": true,
+		"technology": "react",
+		"size": "large"
 	},
 
 	{
@@ -119,6 +121,7 @@
 		"image": "landing-thumb.png",
 		"site": "https://bbabines.github.io/odin-landing-page/",
 		"github": "https://github.com/bbabines/odin-landing-page",
-		"paid": false
+		"paid": false,
+		"technology": "html"
 	}
 ]
