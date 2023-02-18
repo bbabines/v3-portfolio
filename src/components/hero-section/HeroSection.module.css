@@ -60,16 +60,14 @@
 .smallIntro {
 	font-size: 2rem;
 	margin-bottom: 0;
+
 	color: #4bf1d0;
 }
 
 .name {
-	margin: 0;
 	font-size: 10rem;
-
-	/* display: flex;
-	flex-wrap: wrap;
-	flex-shrink: 1; */
+	margin: 0;
+	padding: 0;
 }
 
 .firstLineIntro {

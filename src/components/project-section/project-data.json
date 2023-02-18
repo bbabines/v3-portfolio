@@ -16,7 +16,9 @@
 		"image": "cohering-thumb.jpeg",
 		"site": "#",
 		"github": "#",
-		"paid": true
+		"paid": true,
+		"technology": "react",
+		"size": "large"
 	},
 	{
 		"id": 3,
@@ -24,7 +26,9 @@
 		"image": "brads-clothing-thumb.png",
 		"site": "https://brads-clothing.netlify.app/",
 		"github": "https://github.com/bbabines/brads-clothing",
-		"paid": false
+		"paid": false,
+		"technology": "react",
+		"size": "large"
 	},
 	{
 		"id": 4,
@@ -32,7 +36,9 @@
 		"image": "react-notepad-thumb.png",
 		"site": "https://complex-react-notepad.netlify.app/",
 		"github": "https://github.com/bbabines/complex-react-notepad",
-		"paid": false
+		"paid": false,
+		"technology": "react",
+		"size": "medium"
 	},
 	{
 		"id": 5,
@@ -40,7 +46,9 @@
 		"image": "monster-thumb.png",
 		"site": "https://small-react-monster-rolodex.netlify.app/",
 		"github": "https://github.com/bbabines/monster-rolodex",
-		"paid": false
+		"paid": false,
+		"technology": "react",
+		"size": "small"
 	},
 	{
 		"id": 6,
@@ -48,7 +56,9 @@
 		"image": "react-typing-game-img.png",
 		"site": "https://react-typing-game-with-vite.netlify.app/",
 		"github": "https://github.com/bbabines/react-typing-game",
-		"paid": false
+		"paid": false,
+		"technology": "react",
+		"size": "small"
 	},
 	{
 		"id": 7,
@@ -56,7 +66,9 @@
 		"image": "galaxy-thumb.png",
 		"site": "https://galaxy-three.netlify.app/",
 		"github": "https://github.com/bbabines/Galaxy-three.js",
-		"paid": false
+		"paid": false,
+		"technology": "three",
+		"size": "medium"
 	},
 	{
 		"id": 8,
@@ -64,7 +76,9 @@
 		"image": "real-thumb.png",
 		"site": "https://three-realistic-render.netlify.app/",
 		"github": "https://github.com/bbabines/Realistic-render-three.js/tree/main/src",
-		"paid": false
+		"paid": false,
+		"technology": "three",
+		"size": "medium"
 	},
 	{
 		"id": 9,
@@ -72,7 +86,9 @@
 		"image": "scroll-thumb.png",
 		"site": "https://three-scroll-animation.netlify.app/",
 		"github": "https://github.com/bbabines/Scroll-Animation-three.js/tree/main",
-		"paid": false
+		"paid": false,
+		"technology": "three",
+		"size": "small"
 	},
 
 	{
@@ -81,7 +97,9 @@
 		"image": "calc-thumb.png",
 		"site": "https://bbabines.github.io/calculator/",
 		"github": "https://github.com/bbabines/calculator",
-		"paid": false
+		"paid": false,
+		"technology": "js",
+		"size": "small"
 	},
 	{
 		"id": 11,
@@ -89,7 +107,9 @@
 		"image": "etch-thumb.png",
 		"site": "https://bbabines.github.io/etch-a-sketch/",
 		"github": "https://github.com/bbabines/etch-a-sketch",
-		"paid": false
+		"paid": false,
+		"technology": "js",
+		"size": "small"
 	},
 	{
 		"id": 12,
@@ -97,7 +117,9 @@
 		"image": "prs-thumb.png",
 		"site": "https://bbabines.github.io/paper-rock-scissors/",
 		"github": "https://github.com/bbabines/paper-rock-scissors",
-		"paid": false
+		"paid": false,
+		"technology": "js",
+		"size": "small"
 	},
 	{
 		"id": 13,
@@ -105,7 +127,9 @@
 		"image": "signup-thumb.png",
 		"site": "https://bbabines.github.io/sign-up-form/",
 		"github": "https://github.com/bbabines/sign-up-form",
-		"paid": false
+		"paid": false,
+		"technology": "html",
+		"size": "small"
 	},
 	{
 		"id": 14,
@@ -113,7 +137,9 @@
 		"image": "dashboard-thumb.png",
 		"site": "https://bbabines.github.io/dashboard/",
 		"github": "https://github.com/bbabines/dashboard",
-		"paid": false
+		"paid": false,
+		"technology": "html",
+		"size": "small"
 	},
 	{
 		"id": 15,
@@ -122,6 +148,7 @@
 		"site": "https://bbabines.github.io/odin-landing-page/",
 		"github": "https://github.com/bbabines/odin-landing-page",
 		"paid": false,
-		"technology": "html"
+		"technology": "html",
+		"size": "small"
 	}
 ]

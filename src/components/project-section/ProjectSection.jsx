@@ -6,32 +6,17 @@ import styles from "./ProjectSection.module.css";
 
 import {
 	PersonalProjectCards,
-	PaidProjectCards,
+	ProjectCards,
 } from "../project-card/ProjectCard";
 
 const ProjectSection = () => {
-	// const [filter, setFilter] = useState(false);
-
-	// const filterHTML = projects.filter(
-	// 	(project) => project.technology === "html"
-	// );
-
-	// const hideHTML = () => {
-	// 	setFilter((prevFilter) => !prevFilter);
-	// 	console.log(filter);
-	// };
-
 	return (
 		<div id="projects" className={styles.container}>
 			<h2 className={styles.projectTitle}>Projects</h2>
 			<div className={styles.filterContainer}>
 				<div className={styles.technologyFilterContainer}>
 					<p className={styles.filterTitle}>Technology</p>
-					<Button
-						// onClick={hideHTML}
-						className={styles.filterButtons}
-						type="button"
-					>
+					<Button className={styles.filterButtons} type="button">
 						HTML/CSS
 					</Button>
 
@@ -46,18 +31,7 @@ const ProjectSection = () => {
 						React
 					</Button>
 				</div>
-				{/* <div className={styles.difficultyFilterContainer}>
-					<p className={styles.filterTitle}>Difficulty</p>
-					<Button className={styles.filterButtons} variant="info" type="button">
-						Easy
-					</Button>
-					<Button className={styles.filterButtons} variant="info" type="button">
-						Moderate
-					</Button>
-					<Button className={styles.filterButtons} variant="info" type="button">
-						Advanced
-					</Button>
-				</div> */}
+
 				<div className={styles.sizeFilterContainer}>
 					<p className={styles.filterTitle}>Size</p>
 					<Button className={styles.filterButtons} type="button">
@@ -71,15 +45,15 @@ const ProjectSection = () => {
 					</Button>
 				</div>
 			</div>
+
 			<div className={styles.projectsContainer}>
-				<h3 className={styles.freelanceTitle}>Freelance Work</h3>
+				{/* <h3 className={styles.freelanceTitle}>Freelance Work</h3> */}
 				<div className={styles.freelanceContainer}>
-					<PaidProjectCards />
+					<ProjectCards />
+					{/* <PersonalProjectCards /> */}
 				</div>
-				<h3 className={styles.personalTitle}>Personal Projects</h3>
-				<div className={styles.personalContainer}>
-					<PersonalProjectCards />
-				</div>
+				{/* <h3 className={styles.personalTitle}>Personal Projects</h3>
+				<div className={styles.personalContainer}></div> */}
 			</div>
 		</div>
 	);
