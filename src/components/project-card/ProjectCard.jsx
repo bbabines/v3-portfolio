@@ -1,7 +1,7 @@
-import styles from "./ProjectCard.module.css";
-import { default as projects } from "../project-section/project-data.json";
-import { Button } from "react-bootstrap";
 import { useState } from "react";
+import styles from "./ProjectCard.module.css";
+import { Button } from "react-bootstrap";
+import { default as projects } from "../project-section/project-data.json";
 
 export const ProjectCards = () => {
 	const projectsData = projects;
@@ -39,85 +39,97 @@ export const ProjectCards = () => {
 	return (
 		<div className={styles.container}>
 			<div>
-				<div>
-					Technology:
-					<Button
-						className={
-							techFilter === "all" ? "btn btn-secondary" : "btn btn-primary"
-						}
-						onClick={() => handleTechFilter("all")}
-					>
-						All
-					</Button>
-					<Button
-						className={
-							techFilter === "react" ? "btn btn-secondary" : "btn btn-primary"
-						}
-						onClick={() => handleTechFilter("react")}
-					>
-						React
-					</Button>
-					<Button
-						className={
-							techFilter === "three" ? "btn btn-secondary" : "btn btn-primary"
-						}
-						onClick={() => handleTechFilter("three")}
-					>
-						Three.js
-					</Button>
-					<Button
-						className={
-							techFilter === "js" ? "btn btn-secondary" : "btn btn-primary"
-						}
-						onClick={() => handleTechFilter("js")}
-					>
-						JavaScript
-					</Button>
-					<Button
-						className={
-							techFilter === "html" ? "btn btn-secondary" : "btn btn-primary"
-						}
-						onClick={() => handleTechFilter("html")}
-					>
-						HTML
-					</Button>
+				<div className={styles.filterContainer}>
+					<div className={styles.technologyFilterContainer}>
+						<p className={styles.filterTitle}>Technology</p>
+						<Button
+							id={styles.filterButton}
+							className={
+								techFilter === "all" ? "btn btn-secondary" : "btn btn-primary"
+							}
+							onClick={() => handleTechFilter("all")}
+						>
+							All
+						</Button>
+						<Button
+							id={styles.filterButton}
+							className={
+								techFilter === "react" ? "btn btn-secondary" : "btn btn-primary"
+							}
+							onClick={() => handleTechFilter("react")}
+						>
+							React
+						</Button>
+						<Button
+							id={styles.filterButton}
+							className={
+								techFilter === "three" ? "btn btn-secondary" : "btn btn-primary"
+							}
+							onClick={() => handleTechFilter("three")}
+						>
+							Three.js
+						</Button>
+						<Button
+							id={styles.filterButton}
+							className={
+								techFilter === "js" ? "btn btn-secondary" : "btn btn-primary"
+							}
+							onClick={() => handleTechFilter("js")}
+						>
+							JavaScript
+						</Button>
+						<Button
+							id={styles.filterButton}
+							className={
+								techFilter === "html" ? "btn btn-secondary" : "btn btn-primary"
+							}
+							onClick={() => handleTechFilter("html")}
+						>
+							HTML
+						</Button>
+					</div>
+					<div className={styles.sizeFilterContainer}>
+						<p className={styles.filterTitle}>Size</p>
+						<Button
+							id={styles.filterButton}
+							className={
+								sizeFilter === "all" ? "btn btn-secondary" : "btn btn-primary"
+							}
+							onClick={() => handleSizeFilter("all")}
+						>
+							All
+						</Button>
+						<Button
+							id={styles.filterButton}
+							className={
+								sizeFilter === "large" ? "btn btn-secondary" : "btn btn-primary"
+							}
+							onClick={() => handleSizeFilter("large")}
+						>
+							Large Projects
+						</Button>
+						<Button
+							id={styles.filterButton}
+							className={
+								sizeFilter === "medium"
+									? "btn btn-secondary"
+									: "btn btn-primary"
+							}
+							onClick={() => handleSizeFilter("medium")}
+						>
+							Medium Projects
+						</Button>
+						<Button
+							id={styles.filterButton}
+							className={
+								sizeFilter === "small" ? "btn btn-secondary" : "btn btn-primary"
+							}
+							onClick={() => handleSizeFilter("small")}
+						>
+							Small Projects
+						</Button>
+					</div>
 				</div>
-				<div>
-					Size:
-					<Button
-						className={
-							sizeFilter === "all" ? "btn btn-secondary" : "btn btn-primary"
-						}
-						onClick={() => handleSizeFilter("all")}
-					>
-						All
-					</Button>
-					<Button
-						className={
-							sizeFilter === "large" ? "btn btn-secondary" : "btn btn-primary"
-						}
-						onClick={() => handleSizeFilter("large")}
-					>
-						Large Projects
-					</Button>
-					<Button
-						className={
-							sizeFilter === "medium" ? "btn btn-secondary" : "btn btn-primary"
-						}
-						onClick={() => handleSizeFilter("medium")}
-					>
-						Medium Projects
-					</Button>
-					<Button
-						className={
-							sizeFilter === "small" ? "btn btn-secondary" : "btn btn-primary"
-						}
-						onClick={() => handleSizeFilter("small")}
-					>
-						Small Projects
-					</Button>
-				</div>
-
 				<div className={styles.cardContainer}>
 					{filteredProjects.map((project) => (
 						<div key={project.id}>

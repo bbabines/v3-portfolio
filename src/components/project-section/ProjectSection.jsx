@@ -13,7 +13,7 @@ const ProjectSection = () => {
 	return (
 		<div id="projects" className={styles.container}>
 			<h2 className={styles.projectTitle}>Projects</h2>
-			<div className={styles.filterContainer}>
+			{/* <div className={styles.filterContainer}>
 				<div className={styles.technologyFilterContainer}>
 					<p className={styles.filterTitle}>Technology</p>
 					<Button className={styles.filterButtons} type="button">
@@ -44,7 +44,7 @@ const ProjectSection = () => {
 						Large Projects
 					</Button>
 				</div>
-			</div>
+			</div> */}
 
 			<div className={styles.projectsContainer}>
 				{/* <h3 className={styles.freelanceTitle}>Freelance Work</h3> */}
