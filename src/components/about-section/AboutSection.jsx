@@ -40,7 +40,7 @@ const AboutSection = () => {
 						project. I've recently discovered that 3D content, animations, and
 						micro-interactions are a source of joy.
 					</p>
-					<br />
+					{/* <br /> */}
 					<p>
 						Outside of coding I have strong interests in Brazilian Jiu Jitsu
 						(BJJ), working out, online-gaming, and spending time with my family.
