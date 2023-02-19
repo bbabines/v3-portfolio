@@ -24,7 +24,7 @@ a {
 
 img {
 	display: inline-block;
-	max-width: 350px;
+	/* max-width: 350px; */
 }
 
 :required:focus {

@@ -5,6 +5,13 @@ const ContactSection = () => {
 	return (
 		<div id="contact" className={styles.container}>
 			<h2 className={styles.contactTitle}>Contact</h2>
+			<div className={styles.callToActionContainer}>
+				<img
+					className={styles.contactBanner}
+					src="contact.jpg"
+					alt="contact icons"
+				/>
+			</div>
 			{/* <div className={styles.animationContainer}>
 				<h1 className={styles.animation}>Animation</h1>
 			</div> */}
