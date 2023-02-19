@@ -1,4 +1,4 @@
-[
+const portfolioData = [
 	{
 		id: 1,
 		title: "Version 1",
@@ -25,3 +25,5 @@
 		date: "February, 2023",
 	},
 ];
+
+export default portfolioData;

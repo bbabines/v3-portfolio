@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import styles from "./Footer.module.css";
-import { VersionOne } from "../portfolio-versions/PortfolioVersions";
+import { PortfolioVersions } from "../portfolio-versions/PortfolioVersions";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
@@ -35,8 +35,7 @@ const Footer = () => {
 							<Modal.Title>Previous Portfolio Versions</Modal.Title>
 						</Modal.Header>
 						<Modal.Body>
-							<VersionOne />
-							<p>Version 2</p>
+							<PortfolioVersions />
 						</Modal.Body>
 						<Modal.Footer>
 							<Button variant="secondary" onClick={handleClose}>
