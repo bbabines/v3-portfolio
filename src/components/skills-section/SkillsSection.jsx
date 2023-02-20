@@ -18,7 +18,7 @@ const SkillsSection = () => {
 		<div id="skills" className={styles.container}>
 			<h2 className={styles.skillsTitle}>Skills</h2>
 			<div className={styles.frontEndTitle}>
-				<h3>Front End Development Technologies</h3>
+				<h4 className={styles.subTitle}>Front End Development Technologies</h4>
 			</div>
 			<div className={styles.skillsContainer}>
 				<ul>
@@ -62,7 +62,7 @@ const SkillsSection = () => {
 				</ul>
 			</div>
 			<div className={styles.toolsTitle}>
-				<h3>Tools</h3>
+				<h4 className={styles.subTitle}>Tools</h4>
 			</div>
 			<div className={styles.toolsContainer}>
 				<ul>

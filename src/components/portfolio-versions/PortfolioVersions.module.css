@@ -48,6 +48,8 @@
 	max-width: 150px;
 	max-height: 150px;
 	object-fit: fill;
+
+	border: 1px solid grey;
 }
 
 .technology {
