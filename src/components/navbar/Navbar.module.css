@@ -60,21 +60,22 @@
 /* Very Small */
 @media screen and (max-width: 360px) {
 	.signature {
-		margin: 0;
+		display: none;
 	}
-
-	.navLinks {
-		margin: 0 auto;
-	}
-
-	.linkContainer {
+	.navContainer {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 
+	.navLinks {
+		font-size: 1.25rem;
+		margin: 0.5em 0.75em 0.5em 0.25em;
+	}
+
 	.homeLink {
-		display: none;
+		font-size: 1.25rem;
+		margin: 0.5em 0.75em 0.5em 0.25em;
 	}
 }
 
