@@ -24,6 +24,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 	/* border: 1px solid orange; */
 }
 
@@ -43,6 +44,7 @@
 
 	color: white;
 	text-decoration: none;
+
 	/* border: 1px solid red; */
 }
 
@@ -53,8 +55,9 @@
 .homeLink:hover,
 .homeLink:focus {
 	color: grey;
-	/* border-bottom: 1px solid grey; */
 	cursor: pointer;
+
+	/* border-bottom: 1px solid grey; */
 }
 
 /* Very Small */

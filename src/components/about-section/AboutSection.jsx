@@ -9,7 +9,7 @@ const AboutSection = () => {
 				<div className={styles.descriptionContainer}>
 					<p>
 						<span style={{ color: " #4bf1d0" }}>
-							Hello! I am a React developer and I enjoy building websites,
+							Hello! I'm a React developer and I enjoy building websites,
 							applications, and immersive experiences.
 						</span>
 					</p>

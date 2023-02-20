@@ -4,9 +4,6 @@
 	padding: 1em;
 	padding-bottom: 11em;
 
-	/* display: flex; */
-	/* flex-direction: column; */
-
 	/* border: 2px solid red; */
 }
 
@@ -48,7 +45,6 @@
 .skillsTitle {
 	text-align: center;
 	margin-top: 3em;
-	/* margin-bottom: 3em; */
 }
 
 /* 
