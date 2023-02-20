@@ -9,6 +9,8 @@
 	align-items: center;
 
 	text-align: center;
+	/* flex-wrap: wrap; */
+
 	/* border: 1px solid black; */
 }
 
@@ -55,4 +57,10 @@
 .technology {
 	color: #4bf1d0;
 	font-weight: bold;
+}
+
+@media (max-width: 450px) {
+	.container {
+		flex-wrap: wrap;
+	}
 }

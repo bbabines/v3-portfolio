@@ -41,7 +41,7 @@ export const ProjectCards = () => {
 			<div>
 				<div className={styles.filterContainer}>
 					<div className={styles.technologyFilterContainer}>
-						<p className={styles.filterTitle}>Technology</p>
+						<p className={styles.filterTitle}>Technology:</p>
 						<Button
 							id={styles.filterButton}
 							className={
@@ -89,7 +89,7 @@ export const ProjectCards = () => {
 						</Button>
 					</div>
 					<div className={styles.sizeFilterContainer}>
-						<p className={styles.filterTitle}>Size</p>
+						<p className={styles.filterTitle}>Size:</p>
 						<Button
 							id={styles.filterButton}
 							className={
