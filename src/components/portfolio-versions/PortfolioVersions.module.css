@@ -1,5 +1,56 @@
 .container {
 	font-family: Roboto;
-	color: black;
-	border: 1px solid red;
+	color: white;
+
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	/* border: 1px solid black; */
+}
+
+.portfolioContainer {
+	background-color: #0a192f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-wrap: wrap;
+
+	width: 155px;
+	height: 350px;
+	margin: 0.25em;
+
+	border-radius: 20px;
+
+	border: 1px solid grey;
+}
+
+.portfolioLink {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid grey;
+}
+
+.portfolioLink:hover {
+	color: grey;
+}
+
+.cardTitle {
+	text-align: center;
+}
+
+.cardImage {
+	max-width: 150px;
+	max-height: 150px;
+	object-fit: fill;
+}
+
+.technology {
+	color: #4bf1d0;
+	font-weight: bold;
 }

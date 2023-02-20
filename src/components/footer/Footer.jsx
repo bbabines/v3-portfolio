@@ -32,7 +32,9 @@ const Footer = () => {
 				>
 					<Modal show={showModal} onHide={handleClose}>
 						<Modal.Header>
-							<Modal.Title>Previous Portfolio Versions</Modal.Title>
+							<Modal.Title className={styles.modalTitle}>
+								Portfolio Versions
+							</Modal.Title>
 						</Modal.Header>
 						<Modal.Body>
 							<PortfolioVersions />
