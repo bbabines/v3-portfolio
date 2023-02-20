@@ -11,39 +11,15 @@
 	/* border: 1px solid purple; */
 }
 
-.filterContainer {
-	margin: auto 1em 1em;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-
-	/* border: 1px solid yellow; */
-}
-
-.technologyFilterContainer,
-.difficultyFilterContainer,
-.sizeFilterContainer {
-	display: flex;
-
-	margin: auto 1em;
-}
-
 .projectsContainer {
 	display: flex;
 	/* justify-content: center;
 	align-items: center; */
 	flex-direction: column;
+	/* flex-wrap: wrap; */
 
 	max-width: 1800px;
 	margin: 0 1em;
-
-	/* border: 1px solid red; */
-}
-
-.filterContainer {
-	margin-top: 0.5em;
 
 	/* border: 1px solid red; */
 }
@@ -52,43 +28,19 @@
 .freelanceContainer {
 	margin-bottom: 2em;
 
-	/* display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 1fr; */
-
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	/* align-items: center; */
-	/* justify-content: flex-start;
-	align-items: flex-start; */
+	flex-wrap: wrap;
 
 	min-height: 500px;
 
 	border: 1px solid grey;
 }
 
-.filterTitle {
-	margin: 0.25em 0.25em 0 0.25em;
-	font-size: 1.25rem;
-
-	/* border: 1px solid grey; */
-}
-
-.filterButtons {
-	margin: 0.25em 0.25em;
-
-	/* border-radius: 10px; */
-}
-
 .projectTitle {
 	text-align: center;
 	padding-top: 3em;
-}
-
-.freelanceTitle,
-.personalTitle {
-	margin-top: 0.5em;
 }
 
 .cardImage {

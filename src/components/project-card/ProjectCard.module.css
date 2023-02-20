@@ -48,7 +48,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* text-align: center; */
+	flex-wrap: wrap;
 
 	/* border: 1px solid red; */
 }
@@ -56,18 +56,19 @@
 .technologyFilterContainer,
 .sizeFilterContainer {
 	display: flex;
-	/* justify-content: center;
-	align-items: center; */
-	text-align: center;
 
-	margin: auto 1em;
+	margin: auto auto;
 
 	/* border: 1px solid purple; */
 }
 
 .filterTitle {
-	margin: 0.5em 0.5em;
+	margin: 0 0.5em;
 	font-size: 1.25rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 	/* border: 1px solid grey; */
 }
@@ -75,8 +76,9 @@
 #filterButton {
 	margin: 0.25em 0.25em;
 }
+
 /* TO DO:
-1. Fix bug where transition does not cover links on second project. Look at diff screen sizes. Boxes do not line up at all.
+1. Description Overlay
 
 */
 
