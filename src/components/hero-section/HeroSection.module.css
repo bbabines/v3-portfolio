@@ -82,6 +82,13 @@
 
 /* Very Small */
 @media screen and (max-width: 360px) {
+	.textContainer {
+		margin-top: 0;
+		padding-top: 0;
+
+		/* border: 2px solid yellow; */
+	}
+
 	.name {
 		font-size: 5rem;
 	}
@@ -99,6 +106,20 @@
 
 	.secondLineIntro {
 		font-size: 1.5rem;
+	}
+}
+
+/* Mobile */
+@media screen and (min-width: 361px) and (max-width: 599px) {
+	.textContainer {
+		margin-top: 0;
+		padding-top: 1em;
+
+		/* border: 2px solid yellow; */
+	}
+
+	.name {
+		font-size: 5rem;
 	}
 }
 
