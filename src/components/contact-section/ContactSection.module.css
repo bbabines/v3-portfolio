@@ -30,7 +30,7 @@
 
 .contactBanner {
 	display: inline-block;
-	object-fit: cover;
+	/* object-fit: cover; */
 
 	width: 90%;
 
