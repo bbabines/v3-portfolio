@@ -14,7 +14,8 @@
 
 	display: grid;
 	grid-row: 1fr 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-columns: repeat(auto-fit);
 	column-gap: 2em;
 	row-gap: 2em;
 
@@ -114,4 +115,20 @@ ICON COLORS
 
 .netlify {
 	color: #37aeb8;
+}
+
+@media (max-width: 450px) {
+	.skillsContainer > ul,
+	.toolsContainer > ul {
+		grid-template-columns: repeat(auto-fit);
+		justify-content: center;
+		align-content: center;
+		row-gap: 1em;
+
+		/* border: 2px solid red; */
+	}
+
+	.subTitle {
+		text-align: center;
+	}
 }
