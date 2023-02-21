@@ -26,3 +26,26 @@ const ProjectSection = () => {
 };
 
 export default ProjectSection;
+
+// Paid projects removed until site and code is available
+// {
+// 		"id": 1,
+// 		"title": "Kubera Link",
+// 		"image": "kubera-thumb.png",
+// 		"site": "#",
+// 		"github": "#",
+// 		"paid": true,
+// 		"technology": "react",
+// 		"size": "large"
+// 	},
+
+// 	{
+// 		"id": 2,
+// 		"title": "Cohering Minds",
+// 		"image": "cohering-thumb.jpeg",
+// 		"site": "#",
+// 		"github": "#",
+// 		"paid": true,
+// 		"technology": "react",
+// 		"size": "large"
+// 	},

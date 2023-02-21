@@ -149,7 +149,7 @@ ICON COLORS
 }
 
 /* Large */
-@media (min-width: 1500px) {
+@media (min-width: 1600px) {
 	.skillsTitle {
 		text-align: center;
 		margin-top: 6em;

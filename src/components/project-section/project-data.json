@@ -1,26 +1,5 @@
 [
 	{
-		"id": 1,
-		"title": "Kubera Link",
-		"image": "kubera-thumb.png",
-		"site": "#",
-		"github": "#",
-		"paid": true,
-		"technology": "react",
-		"size": "large"
-	},
-
-	{
-		"id": 2,
-		"title": "Cohering Minds",
-		"image": "cohering-thumb.jpeg",
-		"site": "#",
-		"github": "#",
-		"paid": true,
-		"technology": "react",
-		"size": "large"
-	},
-	{
 		"id": 3,
 		"title": "Brad's Clothing",
 		"image": "brads-clothing-thumb.png",
