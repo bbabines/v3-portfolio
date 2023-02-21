@@ -1,6 +1,5 @@
 .container {
 	padding: 0.5em;
-	height: 100vh;
 
 	background-color: #0a192f;
 	color: grey;
@@ -16,6 +15,7 @@
 .aboutContainer {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 
 	font-size: 1.2rem;
 
@@ -24,11 +24,20 @@
 
 .descriptionContainer {
 	width: 70%;
+	/* min-width: 500px; */
+
 	margin-top: 1.25em;
 	margin-right: 1.25em;
 	margin-bottom: 2em;
 
 	/* border: 1px solid red; */
+}
+
+.pictureContainer {
+	margin: auto auto;
+	max-height: 600px;
+
+	/* border: 1px solid purple; */
 }
 
 .aboutContainer,
@@ -45,12 +54,6 @@
 	margin-top: 3em;
 	text-align: center;
 	color: white;
-}
-
-.pictureContainer {
-	margin: auto auto;
-
-	/* border: 1px solid orange; */
 }
 
 .profilePicture {
@@ -82,7 +85,7 @@
 
 @media (min-width: 321px) and (max-width: 500px) {
 	.container {
-		height: 180vh;
+		/* height: 180vh; */
 	}
 
 	.learningParagraph {
