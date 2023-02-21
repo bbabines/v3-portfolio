@@ -80,10 +80,24 @@
 	background-color: white;
 }
 
+/* iPhone 5 */
+@media screen and (max-width: 321px) {
+	.textContainer {
+		margin-top: 3em;
+		/* border: 2px solid yellow; */
+	}
+}
+
 /* Very Small */
 @media screen and (max-width: 360px) {
 	.textContainer {
+		padding-top: 0;
 		/* border: 2px solid yellow; */
+	}
+
+	.smallIntro {
+		padding-top: 0;
+		margin-top: 0;
 	}
 
 	.name {
