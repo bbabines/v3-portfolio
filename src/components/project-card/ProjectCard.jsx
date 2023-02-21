@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./ProjectCard.module.css";
 import { Button } from "react-bootstrap";
+import { motion, AnimatePresence } from "framer-motion";
 import { default as projects } from "../project-section/project-data.json";
 
 export const ProjectCards = () => {
@@ -38,7 +39,7 @@ export const ProjectCards = () => {
 
 	return (
 		<div className={styles.container}>
-			<div>
+			<motion.div layout>
 				<div className={styles.filterContainer}>
 					<div className={styles.technologyFilterContainer}>
 						<p className={styles.filterTitle}>Technology:</p>
@@ -130,38 +131,47 @@ export const ProjectCards = () => {
 						</Button>
 					</div>
 				</div>
-				<div className={styles.cardContainer}>
-					{filteredProjects.map((project) => (
-						<div key={project.id}>
-							<h6 className={styles.cardTitle}>{project.title}</h6>
-							<div className={styles.description}>
-								{/**Make Description into a component and/or part of the data.JSON */}
-								{/* <p>This is the project description. It goes on and on</p> */}
-							</div>
-							<div className={styles.imageContainer}>
-								<img src={`/${project.image}`} className={styles.cardImage} />
-							</div>
+				<motion.div layout className={styles.cardContainer}>
+					<AnimatePresence>
+						{filteredProjects.map((project) => (
+							<motion.div layout key={project.id}>
+								<h6 className={styles.cardTitle}>{project.title}</h6>
+								<div className={styles.description}>
+									{/**Make Description into a component and/or part of the data.JSON */}
+									{/* <p>This is the project description. It goes on and on</p> */}
+								</div>
+								<motion.div
+									layout
+									animate={{ opacity: 1 }}
+									initial={{ opacity: 0 }}
+									exit={{ opacity: 0 }}
+									transition={{ duration: 0.75 }}
+									className={styles.imageContainer}
+								>
+									<img src={`/${project.image}`} className={styles.cardImage} />
+								</motion.div>
 
-							<div className={styles.linkContainer}>
-								<a
-									href={project.site}
-									target="_blank"
-									className={styles.demoLink}
-								>
-									Live Demo
-								</a>
-								<a
-									href={project.github}
-									target="_blank"
-									className={styles.projectLink}
-								>
-									View Code
-								</a>
-							</div>
-						</div>
-					))}
-				</div>
-			</div>
+								<div className={styles.linkContainer}>
+									<a
+										href={project.site}
+										target="_blank"
+										className={styles.demoLink}
+									>
+										Live Demo
+									</a>
+									<a
+										href={project.github}
+										target="_blank"
+										className={styles.projectLink}
+									>
+										View Code
+									</a>
+								</div>
+							</motion.div>
+						))}
+					</AnimatePresence>
+				</motion.div>
+			</motion.div>
 		</div>
 	);
 };
