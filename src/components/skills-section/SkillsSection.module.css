@@ -136,11 +136,9 @@ ICON COLORS
 
 	.skillsContainer > ul,
 	.toolsContainer > ul {
-		grid-template-columns: repeat(auto-fit);
+		grid-template-columns: repeat(auto-fill);
 		justify-content: center;
 		align-content: center;
-		row-gap: 1em;
-		column-gap: 0.5em;
 
 		/* border: 2px solid red; */
 	}
