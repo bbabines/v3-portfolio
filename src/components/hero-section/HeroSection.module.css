@@ -83,9 +83,6 @@
 /* Very Small */
 @media screen and (max-width: 360px) {
 	.textContainer {
-		margin-top: auto;
-		padding-top: auto;
-
 		/* border: 2px solid yellow; */
 	}
 
@@ -95,17 +92,6 @@
 
 	.secondLineIntro {
 		font-size: 1.25rem;
-	}
-}
-
-/* Mobile */
-@media screen and (min-width: 361px) and (max-width: 599px) {
-	.name {
-		font-size: 6rem;
-	}
-
-	.secondLineIntro {
-		font-size: 1.5rem;
 	}
 }
 
