@@ -124,12 +124,16 @@ ICON COLORS
 }
 
 @media (max-width: 500px) {
+	.container {
+		height: 150vh;
+	}
 	.skillsContainer > ul,
 	.toolsContainer > ul {
 		grid-template-columns: repeat(auto-fit);
 		justify-content: center;
 		align-content: center;
 		row-gap: 1em;
+		column-gap: 0.5em;
 
 		/* border: 2px solid red; */
 	}

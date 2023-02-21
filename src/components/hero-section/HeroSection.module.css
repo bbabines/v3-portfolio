@@ -83,8 +83,8 @@
 /* Very Small */
 @media screen and (max-width: 360px) {
 	.textContainer {
-		margin-top: 0;
-		padding-top: 0;
+		margin-top: auto;
+		padding-top: auto;
 
 		/* border: 2px solid yellow; */
 	}

@@ -58,7 +58,33 @@
 	max-width: 350px;
 }
 
-@media (max-width: 500px) {
+/* Very Small */
+@media (max-width: 330px) {
+	.container {
+		height: 220vh;
+	}
+
+	.learningParagraph {
+		display: none;
+	}
+
+	.aboutContainer,
+	.pictureContainer {
+		margin: auto;
+
+		/* border: 1px solid red; */
+	}
+
+	.pictureContainer {
+		display: none;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 500px) {
+	.container {
+		height: 180vh;
+	}
+
 	.learningParagraph {
 		display: none;
 	}
