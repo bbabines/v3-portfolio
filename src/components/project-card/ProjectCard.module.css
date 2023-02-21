@@ -144,4 +144,8 @@
 
 		border: 1px solid black;
 	}
+
+	.sizeFilterContainer {
+		margin-top: 1em;
+	}
 }

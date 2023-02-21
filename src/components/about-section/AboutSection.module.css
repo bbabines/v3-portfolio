@@ -5,10 +5,11 @@
 	background-color: #0a192f;
 	color: grey;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* flex-wrap: wrap; */
+	/* justify-content: center; */
+	/* align-items: center; */
 
 	/* border: 1px solid purple; */
 }
@@ -57,4 +58,21 @@
 .profilePicture {
 	border-radius: 40px;
 	max-width: 350px;
+}
+
+@media (max-width: 500px) {
+	.learningParagraph {
+		display: none;
+	}
+
+	.aboutContainer,
+	.pictureContainer {
+		margin: auto;
+
+		/* border: 1px solid red; */
+	}
+
+	.pictureContainer {
+		display: none;
+	}
 }

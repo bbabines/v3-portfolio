@@ -23,7 +23,10 @@ const AboutSection = () => {
 					</p>
 					{/* <br /> */}
 					<p>
-						<span style={{ color: "white" }}>
+						<span
+							className={styles.learningParagraph}
+							style={{ color: "white" }}
+						>
 							I began using The Odin Project, Free Code Camp, and Codecademy as
 							introductory resources for this new chapter in my life.
 							Afterwards, I further refined my coding skills from Bob Ziroll and

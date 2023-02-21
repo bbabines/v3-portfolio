@@ -91,6 +91,7 @@ export const ProjectCards = () => {
 					</div>
 					<div className={styles.sizeFilterContainer}>
 						<p className={styles.filterTitle}>Size:</p>
+						{/* <div className={styles.sizeContainer}> */}
 						<Button
 							id={styles.filterButton}
 							className={
@@ -130,6 +131,7 @@ export const ProjectCards = () => {
 							Small Projects
 						</Button>
 					</div>
+					{/* </div> */}
 				</div>
 				<motion.div layout className={styles.cardContainer}>
 					<AnimatePresence>
