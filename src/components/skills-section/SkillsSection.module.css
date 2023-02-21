@@ -1,8 +1,15 @@
 .container {
+	height: 95vh;
 	background-color: #0a192f;
 	color: white;
 	padding: 1em;
 	padding-bottom: 11em;
+
+	align-self: center;
+
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* justify-content: center; */
 
 	/* border: 2px solid red; */
 }
@@ -14,8 +21,7 @@
 
 	display: grid;
 	grid-row: 1fr 1fr 1fr;
-	/* grid-template-columns: 1fr 1fr 1fr; */
-	grid-template-columns: repeat(auto-fit);
+	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 2em;
 	row-gap: 2em;
 
@@ -30,6 +36,10 @@
 
 	border: 2px solid grey;
 	border-radius: 10px;
+}
+
+.skillsTitle {
+	padding-bottom: 5em;
 }
 
 .subTitle {

@@ -1,8 +1,14 @@
 .container {
 	padding: 0.5em;
+	height: 95vh;
 
 	background-color: #0a192f;
 	color: grey;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 	/* border: 1px solid purple; */
 }

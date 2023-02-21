@@ -175,5 +175,3 @@ export const ProjectCards = () => {
 		</div>
 	);
 };
-
-// className={largeFilterState ? "btn btn-primary" : "btn btn-secondary"}
