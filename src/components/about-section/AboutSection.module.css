@@ -117,7 +117,7 @@
 }
 
 /* Large */
-@media (min-width: 2000px) {
+@media (min-width: 1500px) {
 	.container {
 		display: flex;
 		flex-direction: column;
