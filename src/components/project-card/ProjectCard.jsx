@@ -150,6 +150,7 @@ export const ProjectCards = () => {
 									transition={{ duration: 0.75 }}
 									className={styles.imageContainer}
 								>
+									<span id={styles.desc}>{project.description}</span>
 									<img src={`/${project.image}`} className={styles.cardImage} />
 								</motion.div>
 

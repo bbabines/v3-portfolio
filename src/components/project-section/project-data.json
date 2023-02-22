@@ -7,7 +7,8 @@
 		"github": "https://github.com/bbabines/brads-clothing",
 		"paid": false,
 		"technology": "react",
-		"size": "large"
+		"size": "large",
+		"description": "Brad's Clothing is an e-commerce clothing store made with React that has user authentication/database support via firebase."
 	},
 	{
 		"id": 4,
@@ -17,7 +18,8 @@
 		"github": "https://github.com/bbabines/complex-react-notepad",
 		"paid": false,
 		"technology": "react",
-		"size": "medium"
+		"size": "medium",
+		"description": "This notepad is made with React and Typescript. It supports adding, editing, and deleting tags; saving notes in local storage; and filtering by notes and/or tags."
 	},
 	{
 		"id": 5,
@@ -27,7 +29,8 @@
 		"github": "https://github.com/bbabines/monster-rolodex",
 		"paid": false,
 		"technology": "react",
-		"size": "small"
+		"size": "small",
+		"description": "Monster Rolodex is a fun app that fetches data via an API and filters cards by the text input field."
 	},
 	{
 		"id": 6,
@@ -37,7 +40,8 @@
 		"github": "https://github.com/bbabines/react-typing-game",
 		"paid": false,
 		"technology": "react",
-		"size": "small"
+		"size": "small",
+		"description": "This is another fun app that was created with React and styled to look like a retro game."
 	},
 	{
 		"id": 7,
@@ -47,7 +51,8 @@
 		"github": "https://github.com/bbabines/Galaxy-three.js",
 		"paid": false,
 		"technology": "three",
-		"size": "medium"
+		"size": "medium",
+		"description": "Galaxy Generator was made with three.js and is one of the more visually stunning projects I've made."
 	},
 	{
 		"id": 8,
@@ -57,7 +62,8 @@
 		"github": "https://github.com/bbabines/Realistic-render-three.js/tree/main/src",
 		"paid": false,
 		"technology": "three",
-		"size": "medium"
+		"size": "medium",
+		"description": "This rendering was created with three.js and used a model made by another party. The background images were taken by a professional photographer."
 	},
 	{
 		"id": 9,
@@ -67,7 +73,8 @@
 		"github": "https://github.com/bbabines/Scroll-Animation-three.js/tree/main",
 		"paid": false,
 		"technology": "three",
-		"size": "small"
+		"size": "small",
+		"description": "This mockup portfolio was made with three.js to demonstrate scroll based animation capabilities."
 	},
 
 	{
@@ -78,7 +85,8 @@
 		"github": "https://github.com/bbabines/calculator",
 		"paid": false,
 		"technology": "js",
-		"size": "small"
+		"size": "small",
+		"description": "This project was done very early on in my learning journey when learning the basics of Javascript"
 	},
 	{
 		"id": 11,
@@ -88,7 +96,8 @@
 		"github": "https://github.com/bbabines/etch-a-sketch",
 		"paid": false,
 		"technology": "js",
-		"size": "small"
+		"size": "small",
+		"description": "The second project I ever did in Javascript was this Etch-a-sketch creation. It was small but very fun and fulfilling to make"
 	},
 	{
 		"id": 12,
@@ -98,7 +107,8 @@
 		"github": "https://github.com/bbabines/paper-rock-scissors",
 		"paid": false,
 		"technology": "js",
-		"size": "small"
+		"size": "small",
+		"description": "Paper, Rock, Scissors was the very first project I ever made in Javascript when learning the basics."
 	},
 	{
 		"id": 13,
@@ -108,7 +118,8 @@
 		"github": "https://github.com/bbabines/sign-up-form",
 		"paid": false,
 		"technology": "html",
-		"size": "small"
+		"size": "small",
+		"description": "This sign-up form was an early project that was part of The Odin Project course work."
 	},
 	{
 		"id": 14,
@@ -118,7 +129,8 @@
 		"github": "https://github.com/bbabines/dashboard",
 		"paid": false,
 		"technology": "html",
-		"size": "small"
+		"size": "small",
+		"description": "A dashboard is present in almost every business therefore this early project was to demonstrate CSS grid skills from The Odin Project."
 	},
 	{
 		"id": 15,
@@ -128,6 +140,7 @@
 		"github": "https://github.com/bbabines/odin-landing-page",
 		"paid": false,
 		"technology": "html",
-		"size": "small"
+		"size": "small",
+		"description": "This simple, but common landing page was the very first project I ever created with CSS."
 	}
 ]
