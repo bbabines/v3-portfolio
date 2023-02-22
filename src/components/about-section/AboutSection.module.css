@@ -84,10 +84,6 @@
 }
 
 @media (min-width: 321px) and (max-width: 500px) {
-	.container {
-		/* height: 180vh; */
-	}
-
 	.learningParagraph {
 		display: none;
 	}
@@ -108,7 +104,6 @@
 @media (min-width: 1000px) {
 	.aboutContainer {
 		display: flex;
-		/* flex-direction: column; */
 
 		/* border: 1px solid red; */
 	}
@@ -126,5 +121,12 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+}
+
+/* Extra Large */
+@media (min-width: 2500px) {
+	.aboutTitle {
+		margin-top: 10em;
 	}
 }

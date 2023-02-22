@@ -155,3 +155,16 @@ ICON COLORS
 		margin-top: 6em;
 	}
 }
+
+/* Extra Large */
+@media (min-width: 2500px) {
+	.skillsTitle {
+		margin-top: 10em;
+	}
+
+	.toolsContainer {
+		margin-bottom: 10em;
+
+		/* border: 2px solid purple; */
+	}
+}
