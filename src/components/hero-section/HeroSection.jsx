@@ -42,6 +42,29 @@ const HeroSection = () => {
 							})}
 						</div>
 
+						{/* Divs for Firefly animations */}
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+						<div className={styles.firefly}></div>
+
 						{/* Intro Word Animation */}
 						<div>
 							{firstLineIntroWords.map((letter) => {
@@ -82,6 +105,29 @@ const HeroSection = () => {
 								<h6 className={styles.smallIntro}>Hi, my name is</h6>
 
 								<h1 className={styles.name}>Brad Babines</h1>
+
+								{/* Divs for Firefly animations */}
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
+								<div className={styles.firefly}></div>
 
 								<p className={styles.firstLineIntro}>
 									Welcome to my portfolio!
