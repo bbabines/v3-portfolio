@@ -111,15 +111,15 @@
 		"description": "Paper, Rock, Scissors was the very first project I ever made in Javascript when learning the basics."
 	},
 	{
-		"id": 13,
-		"title": "Sign Up Form",
-		"image": "signup-thumb.png",
-		"site": "https://bbabines.github.io/sign-up-form/",
-		"github": "https://github.com/bbabines/sign-up-form",
+		"id": 15,
+		"title": "Responsive Site",
+		"image": "respon-thumb.png",
+		"site": "https://bbabines.github.io/basic-responsive-site/",
+		"github": "https://github.com/bbabines/basic-responsive-site",
 		"paid": false,
 		"technology": "html",
 		"size": "small",
-		"description": "This sign-up form was an early project that was part of The Odin Project course work."
+		"description": "This simple, but common, website is responsive and made with CSS grid. A hamburger menu is utilized for menu selection for the mobile view."
 	},
 	{
 		"id": 14,
@@ -133,14 +133,14 @@
 		"description": "A dashboard is present in almost every business therefore this early project was to demonstrate CSS grid skills from The Odin Project."
 	},
 	{
-		"id": 15,
-		"title": "Landing Page",
-		"image": "landing-thumb.png",
-		"site": "https://bbabines.github.io/odin-landing-page/",
-		"github": "https://github.com/bbabines/odin-landing-page",
+		"id": 13,
+		"title": "Sign Up Form",
+		"image": "signup-thumb.png",
+		"site": "https://bbabines.github.io/sign-up-form/",
+		"github": "https://github.com/bbabines/sign-up-form",
 		"paid": false,
 		"technology": "html",
 		"size": "small",
-		"description": "This simple, but common landing page was the very first project I ever created with CSS."
+		"description": "This sign-up form was an early project that was part of The Odin Project course work."
 	}
 ]
